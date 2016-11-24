@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.music.web.dao.CollectionDao">
+
+    <resultMap type="CollectionMusic" id="collectionMap">
+        <result property="id" column="id"></result>
+        <result property="uid" column="uid"></result>
+		<result property="mid" column="mid"></result>
+        <result property="time" column="time"></result>
+        <result property="type" column="type"></result>
+	</resultMap>
+
+    <select id="selectMusicByUser" resultType="music">
+        select music.*
+        from collection , music
+        where collection.mid = music.songId and collection.uid = #{uid} and collection.type = #{type}
+    </select>
+
+    <select id="selecCollectionCountByUidAndMid" resultType="int">
+        select count(*) from collection
+        where uid= #{uid} and mid =#{mid} and type = #{type}
+    </select>
+
+    <insert id="insertCollection" parameterType="CollectionMusic">
+        insert into collection (uid,mid,time,type)
+        values(#{collect.uid},#{collect.mid},#{collect.time},#{collect.type})
+    </insert>
+
+    <delete id="deleteCollection">
+        delete from collection where uid =#{uid} and mid =#{mid} and type = #{type}
+    </delete>
+	
+</mapper> 

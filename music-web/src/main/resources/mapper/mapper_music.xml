@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.music.web.dao.MusicDao">
+
+    <resultMap type="Music" id="musicMap">
+        <result property="id" column="id"></result>
+		<result property="musicName" column="musicName"></result>
+		<result property="singer" column="singer"></result>
+		<result property="albumName" column="albumName"></result>
+		<result property="songId" column="songId"></result>
+		<result property="picUrl" column="picUrl"></result>
+		<result property="playNum" column="playNum"></result>
+	</resultMap>
+
+	<select id="selectMusicBySongId" resultMap="musicMap">
+		select * from music where songId = #{songId}
+	</select>
+
+	<select id="selectMusicOrderByPlayNum" resultMap="musicMap">
+		select * from music order by playNum desc limit 0,#{total}
+	</select>
+
+	<select id="selectMusicOrderByCollect" resultMap="musicMap">
+		select music.* from music ,collection where music.songId = collection.mid
+     	 GROUP by collection.mid   ORDER  by count(*) desc
+    	limit 0,#{total}
+	</select>
+
+	<insert id="insertMusic" parameterType="Music">
+		insert into music (musicName,singer,albumName,songId,picUrl,playNum)
+		values(#{music.musicName},#{music.singer},#{music.albumName},#{music.songId},#{music.picUrl},#{music.playNum})
+	</insert>
+
+	<update id = "updateMusicPlayNum">
+		update music set playNum = #{playNum} where songId =#{songId}
+	</update>
+
+</mapper> 

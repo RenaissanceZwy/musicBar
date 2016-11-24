@@ -1,0 +1,80 @@
+/*导航栏*/
+.navbar-headimg img{
+	width:50px;
+	height:50px;
+	margin-left: 20px
+}
+.navbar-headimg .dropdown-menu{
+	text-align:  center;
+	width: 40px;
+}
+.navbar-form input{
+	border: none;
+	border-radius: 0;
+	height: 35px;
+}
+.navbar-form .search-btn{
+	border: none;
+	border-radius: 0;
+	margin-left: -5px;
+	margin-right: 20px;
+	height: 35px;
+	background-color: white;
+}
+/*摸态框*/
+.modal-title{
+	text-align: center;
+}
+.modal-footer{
+	text-align: center;
+}
+.modal-body{
+	padding-top: 40px;
+}
+.modal-body input {
+	width: 60%;
+	position: relative;
+	left: 20%;
+	margin-bottom: 30px;
+}
+.modal-footer button{
+	width:30%;
+}
+.modal-footer .signIn .signUp {
+	background-color: #31c27c;
+}
+
+/*页脚*/
+.footer{
+	background-color: #333 ;
+	width: 100%;
+	margin-top: 50px;
+	color: snow;
+}
+.footer .row{
+	text-align: center;
+	margin-top: 40px;
+}
+.footer ul li{
+	margin-bottom: 15px;
+}
+.footer .ul-left{
+	float: left;
+	margin-right: 20px;
+	margin-left: 40px;
+}
+.footer p{
+	margin-top: 20px;
+}
+.footer .footer-right {
+	margin-top: 40px;
+	text-align: center;
+}
+/*响应式布局*/
+@media (max-width: 768px) {
+	.footer .ul-left{
+		float: left;
+		margin-right: 20px;
+		margin-left: 60px;
+	}
+}
