@@ -32,9 +32,9 @@ public class IndexController {
     private MusicService musicService;
 
     /*主页显示*/
-   @RequestMapping(value = "/index")
+   @RequestMapping(value = "/")
     public String test(HttpServletRequest request, HttpServletResponse response, Model model){
-       User user = (User) request.getSession().getAttribute("currentUser");
+       User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
        model.addAttribute("user",user);
 
        /*获取播放排行榜*/
@@ -70,7 +70,7 @@ public class IndexController {
         if (user != null && user.getStatus() == 1){
             return  new JsonResult(JsonResultCode.FAILURE,"对不起该用户已被禁用","");
         }
-        request.getSession().setAttribute("currentUser",user);
+        request.getSession().setAttribute(CommonConstants.CURRENT_USER,user);
         return  new JsonResult(JsonResultCode.SUCCESS,"登录成功",user.getStatus());
     }
 

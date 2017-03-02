@@ -163,7 +163,9 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <img src="<%=request.getContextPath()%>/assets/images/41260.jpg" alt="1 slide">
+            <a href="http://y.qq.com/msa/liyuchun4/index_new.html?g_f=yqqjiaodian">
+             <img src="<%=request.getContextPath()%>/assets/images/41260.jpg" alt="1 slide">
+            </a>
         </div>
         <div class="item">
             <img src="<%=request.getContextPath()%>/assets/images/50472.jpg" alt="2 slide">

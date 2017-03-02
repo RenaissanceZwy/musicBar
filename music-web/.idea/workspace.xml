@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="187a132f-b36e-4764-b459-12b2e0b6c0df" name="Default" comment="" />
+    <list default="true" id="187a132f-b36e-4764-b459-12b2e0b6c0df" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/constant/FileUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/constant/PureNetUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/music/web/constant/FileUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/music/web/constant/PureNetUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/constant/FileUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/constant/PureNetUtil.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/MusicController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/MusicController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/SearchController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/SearchController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CollectionServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CollectionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CommentServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CommentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/MusicServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/MusicServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/MusicController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/MusicController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/SearchController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/SearchController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/CollectionServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/CollectionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/CommentServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/CommentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/MusicServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/MusicServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/music_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/music_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music-web.iml" afterPath="$PROJECT_DIR$/music-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/music-bar/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/admin.jsp" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/include.jsp" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/include.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/index.jsp" />
+    </list>
     <ignored path="music-web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,6 +65,12 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideWarnings" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="music-web" />
@@ -29,15 +82,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="class" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
+        <option value="class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -47,20 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/dao/DownloadDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/dao/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/DownloadService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/DownloadServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/entity/Download.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_download.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/constant/JsonResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/constant/JsonResultCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/constant/CheckUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/constant/FileUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/navbar.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/entity/Music.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/entity/CollectionMusic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/dao/MusicDao.java" />
@@ -68,15 +108,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/MusicServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_music.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/constant/PureNetUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/constant/CommonConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/dao/CollectionDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_collection.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/CollectionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/CollectionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/entity/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/vo/CommentInfo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/resultList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/navbar.jsp" />
@@ -86,18 +123,35 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_comment.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/CommentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/CommentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_user.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/play.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/myMusic.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/util/RedisService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/util/PureNetUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/constant/CommonConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/bean/MyHandShakeInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/bean/MyWebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/entity/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/bean/MyWebSocketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" />
       </list>
     </option>
   </component>
@@ -124,10 +178,10 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1616" />
+    <option name="height" value="886" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -152,6 +206,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,7 +293,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,49 +372,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="music-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="music-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/project/yongyou" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -314,20 +390,24 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/project/music-web/src/main/java/com/music/web/service/UserService.java" />
+    <property name="ToolWindowMessages.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.music.web.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\project\music-web\src\main\webapp\assets\js" />
+      <recent name="G:\project\music-web\src\main\resources" />
       <recent name="G:\project\music-web\src\main\webapp\WEB-INF\jsp" />
       <recent name="G:\project\music-web\src\main\webapp\assets\images" />
-      <recent name="G:\project\music-web\src\main\webapp\assets\js" />
       <recent name="G:\project\music-web\src\main\java\com\music\web\constant" />
-      <recent name="G:\project\music-web\src\main\webapp\assets\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat server ">
+  <component name="RunManager" selected="Tomcat Server.在线音乐网站">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.681" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -802,8 +882,9 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="tomcat server " type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.681" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/music" />
+    <configuration default="false" name="在线音乐网站" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.681" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/music" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -816,6 +897,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_music-web" />
+        <option name="HTTP_PORT" value="8085" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -871,10 +953,15 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="music-web:war exploded" />
+        </option>
+      </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat server " />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.在线音乐网站" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -908,50 +995,58 @@
       <workItem from="1479808552159" duration="133000" />
       <workItem from="1479874172611" duration="2481000" />
       <workItem from="1479889708958" duration="4945000" />
-      <workItem from="1479950519361" duration="2467000" />
+      <workItem from="1479950519361" duration="4320000" />
+      <workItem from="1480389873856" duration="7000" />
+      <workItem from="1257045934834" duration="16000" />
+      <workItem from="1481196863822" duration="59000" />
+      <workItem from="1481199429595" duration="15000" />
+      <workItem from="1488161377718" duration="17470000" />
+      <workItem from="1488332684955" duration="265000" />
+      <workItem from="1488418533080" duration="9930000" />
+      <workItem from="1488432851153" duration="143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135649000" />
+    <option name="totallyTimeSpent" value="165407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78533334" sideWeight="0.5025773" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.844" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23131444" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33736762" sideWeight="0.50643086" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78617364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27685326" sideWeight="0.49356914" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33736762" sideWeight="0.50643086" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35333332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32533333" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="100" width="1178" height="528" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6346667" sideWeight="0.4974227" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1001,7 +1096,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="15" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1009,298 +1106,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/CheckUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/software/JAVA/MyEclipseWorkspace/whmetro/src/com/xing/whmetro/utils/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jplayer.playlist.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/lanrenzhijia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.fileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.iframe-transport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.ui.widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/net/URLConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="850" column="24" selection-start-line="850" selection-start-column="24" selection-end-line="850" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/entity/CollectionMusic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/dao/MusicDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="27" column="76" selection-start-line="23" selection-start-column="3" selection-end-line="27" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/MusicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/MusicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/mapper_music.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/PureNetUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/CommonConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/dao/CollectionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="101" selection-start-line="24" selection-start-column="101" selection-end-line="24" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/CollectionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/entity/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/entity/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="e#1954#1961#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/vo/CommentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/resultList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/CollectionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/mapper_comment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/dao/CommentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
-          <folding>
-            <element signature="e#1774#1775#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/mapper_collection.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1315,52 +1120,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="142" column="7" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1373,14 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/myMusic.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1389,10 +1144,326 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="112" column="21" selection-start-line="109" selection-start-column="11" selection-end-line="112" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1278">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-Redis/1.7.5.RELEASE/spring-data-Redis-1.7.5.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/FileUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/PureNetUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/util/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/util/PureNetUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.0.5.RELEASE/spring-websocket-4.0.5.RELEASE.jar!/org/springframework/web/socket/WebSocketMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/entity/CollectionMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3155">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="138" column="15" selection-start-line="138" selection-start-column="15" selection-end-line="138" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="36" column="88" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/JsonResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/JsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/constant/CommonConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="315" column="83" selection-start-line="315" selection-start-column="83" selection-end-line="315" selection-end-column="83" />
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.0.5.RELEASE/spring-websocket-4.0.5.RELEASE.jar!/org/springframework/web/socket/config/annotation/WebSocketConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/sockjs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4460">
+          <caret line="223" column="17" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/bean/MyWebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1179#1180#0" expanded="false" />
+            <element signature="e#1226#1227#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="463" column="0" selection-start-line="463" selection-start-column="0" selection-end-line="463" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar!/org/springframework/web/servlet/mvc/HttpRequestHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.0.5.RELEASE/spring-websocket-4.0.5.RELEASE.jar!/org/springframework/web/socket/server/support/WebSocketHttpRequestHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.0.5.RELEASE/spring-websocket-4.0.5.RELEASE.jar!/org/springframework/web/socket/server/support/HandshakeInterceptorChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/bean/MyHandShakeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/entity/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.0.5.RELEASE/spring-websocket-4.0.5.RELEASE.jar!/org/springframework/web/socket/adapter/standard/StandardWebSocketHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.0.5.RELEASE/spring-websocket-4.0.5.RELEASE.jar!/org/springframework/web/socket/handler/ExceptionWebSocketHandlerDecorator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.0.5.RELEASE/spring-websocket-4.0.5.RELEASE.jar!/org/springframework/web/socket/handler/LoggingWebSocketHandlerDecorator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/4.0.5.RELEASE/spring-websocket-4.0.5.RELEASE.jar!/org/springframework/web/socket/handler/WebSocketHandlerDecorator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/bean/MyWebSocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
           <folding />
         </state>
       </provider>

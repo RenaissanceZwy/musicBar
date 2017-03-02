@@ -1,11 +1,11 @@
 package com.music.web.controller;
 
 import com.music.web.constant.CommonConstants;
-import com.music.web.constant.FileUtil;
 import com.music.web.constant.JsonResult;
 import com.music.web.constant.JsonResultCode;
 import com.music.web.entity.User;
 import com.music.web.service.UserService;
+import com.music.web.util.FileUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,7 +44,7 @@ public class UserController {
      */
     @RequestMapping(value = "showInfo",method = {RequestMethod.GET, RequestMethod.POST})
     public String editInfo(HttpServletRequest request, HttpServletResponse response, Model model){
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         model.addAttribute("user",user);
 
         return "userInfo";
@@ -82,7 +82,7 @@ public class UserController {
         //获取图片
        // List<MultipartFile> files = request.getFiles("filedata");
        /* 获取用户id*/
-        User user = (User)request.getSession().getAttribute("currentUser");
+        User user = (User)request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         Long createBy = user.getId();
 
         /*List<String> urList = new ArrayList<String>();*/

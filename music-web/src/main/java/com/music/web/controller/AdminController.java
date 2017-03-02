@@ -1,5 +1,6 @@
 package com.music.web.controller;
 
+import com.music.web.constant.CommonConstants;
 import com.music.web.entity.User;
 import com.music.web.service.CommentService;
 import com.music.web.service.UserService;
@@ -14,7 +15,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
- * Created by Administrator on 2016/11/23.
+ * Created by 赵文奕 on 2016/11/23.
+ * 后台管理界面
  */
 @RequestMapping("admin")
 @Controller
@@ -25,10 +27,17 @@ public class AdminController {
 
     @Autowired
     private CommentService commentService;
-    /*主页显示*/
+
+    /**
+     * 主页显示
+     * @param request
+     * @param response
+     * @param model
+     * @return
+     */
     @RequestMapping(value = "/index")
     public String test(HttpServletRequest request, HttpServletResponse response, Model model){
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         model.addAttribute("user",user);
 
         /*获取所有的评论*/
@@ -41,4 +50,12 @@ public class AdminController {
 
         return "admin";
     }
+
+
+    @RequestMapping(value = "/test")
+    public String test(HttpServletRequest request,HttpServletResponse response){
+        return "test";
+    }
+
+
 }

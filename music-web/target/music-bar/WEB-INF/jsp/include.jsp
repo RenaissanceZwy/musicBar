@@ -12,3 +12,4 @@
 <script src="<%=request.getContextPath()%>/assets/js/jquery.iframe-transport.js"></script>
 <script src="<%=request.getContextPath()%>/assets/js/jquery.fileupload.js"></script>
 <script src="<%=request.getContextPath()%>/assets/js/navbar.js"></script>
+<script src="<%=request.getContextPath()%>/assets/js/sockjs.min.js"></script>

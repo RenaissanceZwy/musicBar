@@ -5,7 +5,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.music.web.constant.CommonConstants;
 import com.music.web.constant.JsonResult;
 import com.music.web.constant.JsonResultCode;
-import com.music.web.constant.PureNetUtil;
 import com.music.web.entity.CollectionMusic;
 import com.music.web.entity.Comment;
 import com.music.web.entity.Music;
@@ -13,6 +12,7 @@ import com.music.web.entity.User;
 import com.music.web.service.CollectionService;
 import com.music.web.service.CommentService;
 import com.music.web.service.MusicService;
+import com.music.web.util.PureNetUtil;
 import com.music.web.vo.CommentInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -49,7 +49,7 @@ public class MusicController {
     /*我的音乐界面*/
     @RequestMapping(value = "/myMusic" ,method = {RequestMethod.GET, RequestMethod.POST})
     public String myMusic(HttpServletRequest request, HttpServletResponse response, Model model){
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         model.addAttribute("user",user);
 
        /* 如果用户已经登录*/
@@ -78,7 +78,7 @@ public class MusicController {
     @ResponseBody
     @RequestMapping(value = "/collect" ,method = {RequestMethod.GET, RequestMethod.POST})
     public Object CollectMusic(HttpServletRequest request, HttpServletResponse response){
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         if(user == null){
             return new JsonResult(JsonResultCode.FAILURE,"请先进行登录","");
         }
@@ -100,7 +100,7 @@ public class MusicController {
     @ResponseBody
     @RequestMapping(value = "/cancel" ,method = {RequestMethod.GET, RequestMethod.POST})
     public Object CancelCollect(HttpServletRequest request, HttpServletResponse response){
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
 
         String mid = request.getParameter("mid");
         boolean result = collectionService.deleteCollection(Long.valueOf(mid),user.getId(),CommonConstants.COLLECTION);
@@ -116,7 +116,7 @@ public class MusicController {
     @RequestMapping(value = "/play" ,method = {RequestMethod.GET, RequestMethod.POST})
     public String song(HttpServletRequest request, HttpServletResponse response,Model model){
         /*用户的信息*/
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         model.addAttribute("user",user);
 
         /*获取歌曲id*/
@@ -177,7 +177,7 @@ public class MusicController {
     @ResponseBody
     @RequestMapping(value = "/comment" ,method = {RequestMethod.GET, RequestMethod.POST})
     public Object publishComment(HttpServletRequest request, HttpServletResponse response, Comment comment){
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         if(user == null){
             return new JsonResult(JsonResultCode.FAILURE,"请先进行登录","");
         }
@@ -196,7 +196,7 @@ public class MusicController {
     @ResponseBody
     @RequestMapping(value = "/deleteComment" ,method = {RequestMethod.GET, RequestMethod.POST})
     public Object deleteComment(HttpServletRequest request, HttpServletResponse response){
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         if(user == null){
             return new JsonResult(JsonResultCode.FAILURE,"请先进行登录","");
         }
@@ -213,7 +213,7 @@ public class MusicController {
     @ResponseBody
     @RequestMapping(value = "/likeComment" ,method = {RequestMethod.GET, RequestMethod.POST})
     public Object likeComment(HttpServletRequest request, HttpServletResponse response){
-        User user = (User) request.getSession().getAttribute("currentUser");
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
         if(user == null){
             return new JsonResult(JsonResultCode.FAILURE,"请先进行登录","");
         }
