@@ -2,52 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187a132f-b36e-4764-b459-12b2e0b6c0df" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/constant/FileUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/constant/PureNetUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/music/web/constant/FileUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/music/web/constant/PureNetUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/constant/FileUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/constant/PureNetUtil.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/AdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/MusicController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/MusicController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/SearchController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/SearchController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CollectionServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CollectionServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CommentServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CommentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/MusicServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/MusicServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/AdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/MusicController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/MusicController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/SearchController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/SearchController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/CollectionServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/CollectionServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/CommentServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/CommentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/MusicServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/MusicServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/com/music/web/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/music_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/music_web_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/bean/MyHandShakeInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/bean/MyWebSocketConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/bean/MyWebSocketHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/entity/Message.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/util/FileUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/util/PureNetUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/util/RedisService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/redis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/sockjs.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/music-web.iml" afterPath="$PROJECT_DIR$/music-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/music-bar/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/classes/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/admin.jsp" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/include.jsp" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/include.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/target/music-bar/WEB-INF/jsp/index.jsp" />
     </list>
     <ignored path="music-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1003,12 +969,20 @@
       <workItem from="1488161377718" duration="17470000" />
       <workItem from="1488332684955" duration="265000" />
       <workItem from="1488418533080" duration="9930000" />
-      <workItem from="1488432851153" duration="143000" />
+      <workItem from="1488432851153" duration="400000" />
     </task>
+    <task id="LOCAL-00001" summary="1，添加redis配置文件&#10;2，添加Socket的demo，实现基本聊天">
+      <created>1488433076797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488433076797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165407000" />
+    <option name="totallyTimeSpent" value="165664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -1094,6 +1068,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1，添加redis配置文件&#10;2，添加Socket的demo，实现基本聊天" />
+    <option name="LAST_COMMIT_MESSAGE" value="1，添加redis配置文件&#10;2，添加Socket的demo，实现基本聊天" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1309,6 +1287,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,6 +1316,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,6 +1332,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
