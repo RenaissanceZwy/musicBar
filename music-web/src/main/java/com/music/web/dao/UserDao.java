@@ -30,4 +30,6 @@ public interface UserDao {
     /*将用户禁用/启用*/
     public int updateUserStauts(@Param("uid") Long uid,@Param("status") int status);
 
+    public User selectUserById(@Param("id") String id);
+
  }

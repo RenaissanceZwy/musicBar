@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -53,7 +54,15 @@ public class AdminController {
 
 
     @RequestMapping(value = "/test")
-    public String test(HttpServletRequest request,HttpServletResponse response){
+    public String test2(HttpServletRequest request,HttpServletResponse response,Model model,
+                        @RequestParam(required = true ,value = "toId") Integer toId){
+        //获取当前登录的用户
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
+        //获取当前对话的用户
+        User toUser = userService.getUserById(toId.toString());
+
+        model.addAttribute("toUser",toUser);
+        model.addAttribute("user",user);
         return "test";
     }
 

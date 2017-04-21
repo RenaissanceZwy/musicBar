@@ -80,4 +80,14 @@ public class UserServiceImpl  implements UserService{
         }
         return result>0?true:false;
     }
+
+    public User getUserById(String id) {
+        User user = null;
+        try{
+            user = userDao.selectUserById(id);
+        }catch (Exception e){
+            logger.error("[UserServiceImpl][getUserById] id="+id+""+e);
+        }
+        return user;
+    }
 }

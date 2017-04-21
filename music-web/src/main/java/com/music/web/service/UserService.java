@@ -26,4 +26,7 @@ public interface UserService {
 /*
     将用户禁用和启用*/
     public boolean modifyUserSatsu(Long uid,int status);
+
+    /* 通过用户id获取用户*/
+    public User getUserById(String id);
 }
