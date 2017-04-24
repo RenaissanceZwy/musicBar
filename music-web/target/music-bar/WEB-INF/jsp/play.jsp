@@ -164,7 +164,9 @@
     <c:forEach items="${commentInfo}" var="comment">
         <div class="row comment-item">
             <div class="col-md-10">
-                <img src="<%=request.getContextPath()%>${comment.headImg}" class="comment-img img-circle" alt="">
+                <a href="<%=request.getContextPath()%>/admin/test?toId=${comment.uid}">
+                    <img src="<%=request.getContextPath()%>${comment.headImg}" class="comment-img img-circle" alt="">
+                </a>
                 <ul class="comment-text list-unstyled">
                     <li>${comment.username} &nbsp;</li>
                     <li> <h5>${comment.content}</h5></li>
