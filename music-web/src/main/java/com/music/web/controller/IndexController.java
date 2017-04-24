@@ -33,10 +33,7 @@ public class IndexController {
 
     /*主页显示*/
    @RequestMapping(value = "")
-    public String test(HttpServletRequest request, HttpServletResponse response, Model model){
-       User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
-       model.addAttribute("user",user);
-
+    public String test(HttpServletRequest request, Model model, HttpServletResponse response){
        /*获取播放排行榜*/
        List<Music> playRank = musicService.selectMusicOrderByPlayNum(4);
        model.addAttribute("playRank",playRank);
@@ -98,7 +95,7 @@ public class IndexController {
 
     /*进行登出操作*/
     @RequestMapping(value = "/signOut",method ={RequestMethod.GET, RequestMethod.POST} )
-    public String signOut(HttpServletRequest request){
+    public String signOut(HttpServletRequest request, Model model){
 
         request.getSession().setAttribute(CommonConstants.CURRENT_USER,null);
 

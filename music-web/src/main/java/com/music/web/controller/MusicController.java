@@ -48,9 +48,8 @@ public class MusicController {
 
     /*我的音乐界面*/
     @RequestMapping(value = "/myMusic" ,method = {RequestMethod.GET, RequestMethod.POST})
-    public String myMusic(HttpServletRequest request, HttpServletResponse response, Model model){
+    public String myMusic(HttpServletRequest request, Model model, HttpServletResponse response){
         User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
-        model.addAttribute("user",user);
 
        /* 如果用户已经登录*/
         if(user!= null){
@@ -114,11 +113,9 @@ public class MusicController {
 
    /* 某首歌的界面*/
     @RequestMapping(value = "/play" ,method = {RequestMethod.GET, RequestMethod.POST})
-    public String song(HttpServletRequest request, HttpServletResponse response,Model model){
+    public String song(HttpServletRequest request,Model model, HttpServletResponse response){
         /*用户的信息*/
         User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
-        model.addAttribute("user",user);
-
         /*获取歌曲id*/
         String songId = request.getParameter("id");
         /*判断是否存在已经存储该歌曲信息*/

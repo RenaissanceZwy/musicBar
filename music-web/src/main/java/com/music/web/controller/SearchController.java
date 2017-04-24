@@ -27,7 +27,7 @@ public class SearchController {
 
     @ResponseBody
     @RequestMapping(value = "/test",method = {RequestMethod.GET, RequestMethod.POST})
-    public Object search(HttpServletRequest request, HttpServletResponse response){
+    public Object search(HttpServletRequest request,Model model, HttpServletResponse response){
         //获取搜索关键词
         String keyWord = request.getParameter("keyWord");
         String url = CommonConstants.SONG_SEARCH+"?type=1&filterDj=true&s="+keyWord+"&limit=10&offset=0";
@@ -39,7 +39,7 @@ public class SearchController {
     }
 
     @RequestMapping(value = "/song",method = {RequestMethod.GET, RequestMethod.POST})
-    public String getSongById(HttpServletRequest request, HttpServletResponse response, Model model){
+    public String getSongById(HttpServletRequest request, Model model, HttpServletResponse response){
         //获取搜索关键词
         String keyWord = request.getParameter("keyWord");
         String url = CommonConstants.SONG_SEARCH+"?type=1&filterDj=true&s="+keyWord+"&limit=10&offset=0";

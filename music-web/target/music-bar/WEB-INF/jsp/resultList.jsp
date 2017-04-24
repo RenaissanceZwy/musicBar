@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
-    <%@ include file="include.jsp" %>
+    <%@ include file="common/css.jsp" %>
     <style>
         *{ margin:0; padding:0; list-style:none;}
         *, *:before, *:after {
@@ -39,7 +39,7 @@
 </head>
 <body>
 
-<%@ include file="navbar.jsp" %>
+<%@ include file="common/navbar.jsp" %>
 
 <div class="result-profle">
 </div>
@@ -74,8 +74,8 @@
 </div>
 
 <!--页脚-->
-<%@ include file="footer.jsp" %>
-
+<%@ include file="common/footer.jsp" %>
+<%@ include file="common/script.jsp" %>
 <script>
     /*进行登录*/
     $(".signIn").click(function () {

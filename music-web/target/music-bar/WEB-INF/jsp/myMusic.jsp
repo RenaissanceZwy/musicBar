@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>我的音乐</title>
-    <%@ include file="include.jsp" %>
+    <%@ include file="common/css.jsp" %>
     <style>
         *{ margin:0; padding:0; list-style:none;}
         *, *:before, *:after {
@@ -93,7 +93,7 @@
 </head>
 <body>
 <!-- 顶部导航 -->
-<%@ include file="navbar.jsp" %>
+<%@ include file="common/navbar.jsp" %>
 <c:choose>
     <c:when test="${user==null}">
         <div class="up-sign">
@@ -222,8 +222,8 @@
 
 
 <!--页脚-->
-<%@ include file="footer.jsp" %>
-
+<%@ include file="common/footer.jsp" %>
+<%@ include file="common/script.jsp" %>
 <script>
     $(function () {
         var li = $(".choose").children(".active").removeClass("active");

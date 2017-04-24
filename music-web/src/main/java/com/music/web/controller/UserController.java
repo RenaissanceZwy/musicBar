@@ -43,10 +43,7 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "showInfo",method = {RequestMethod.GET, RequestMethod.POST})
-    public String editInfo(HttpServletRequest request, HttpServletResponse response, Model model){
-        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
-        model.addAttribute("user",user);
-
+    public String editInfo(HttpServletRequest request, Model model, HttpServletResponse response){
         return "userInfo";
     }
 

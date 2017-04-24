@@ -1,6 +1,5 @@
 package com.music.web.controller;
 
-import com.music.web.constant.CommonConstants;
 import com.music.web.entity.User;
 import com.music.web.service.CommentService;
 import com.music.web.service.UserService;
@@ -37,10 +36,7 @@ public class AdminController {
      * @return
      */
     @RequestMapping(value = "/index")
-    public String test(HttpServletRequest request, HttpServletResponse response, Model model){
-        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
-        model.addAttribute("user",user);
-
+    public String test(HttpServletRequest request,Model model, HttpServletResponse response ){
         /*获取所有的评论*/
         List<CommentInfo> commentInfos = commentService.getComments();
         model.addAttribute("commentInfos",commentInfos);
@@ -54,15 +50,14 @@ public class AdminController {
 
 
     @RequestMapping(value = "/test")
-    public String test2(HttpServletRequest request,HttpServletResponse response,Model model,
+    public String test2(HttpServletRequest request,Model model,HttpServletResponse response,
                         @RequestParam(required = true ,value = "toId") Integer toId){
-        //获取当前登录的用户
-        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
+
         //获取当前对话的用户
         User toUser = userService.getUserById(toId.toString());
 
         model.addAttribute("toUser",toUser);
-        model.addAttribute("user",user);
+
         return "test";
     }
 
