@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Title</title>
-    <%@ include file="include.jsp" %>
+    <%@ include file="common/css.jsp" %>
     <style>
         .navbar-headimg img{
             width:50px;
@@ -60,49 +60,7 @@
 </head>
 <body>
 
-<!-- 顶部导航 -->
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">切换导航</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">音乐吧</a>
-        </div>
-        <!--会折叠的区域-->
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav choose">
-                <li ><a href="<%=request.getContextPath()%>/index/index">音乐库</a></li>
-                <li><a href="<%=request.getContextPath()%>/music/myMusic">我的音乐</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-             <%--  <c:if test="${user == null}">
-                   <li><a href="#" data-toggle="modal" data-target="#moddal-login">登录</a></li>
-                   <li><a href="#" data-toggle="modal" data-target="#moddal-signUp">注册</a></li>
-               </c:if>
-                <c:if test="${user != null}">
-                    <li class="dropdown navbar-headimg">
-                        <img src="<%=request.getContextPath()%>${user.headImg}" alt="${user.username}"  class="img-circle dropdown-toggle" data-toggle="dropdown">
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="<%=request.getContextPath()%>/user/showInfo">设置</a></li>
-                            <li><a href="<%=request.getContextPath()%>/index/signOut">退出</a></li>
-                        </ul>
-                    </li>
-                </c:if>--%>
-            </ul>
-            <form class="navbar-form navbar-right" role="search" action="<%=request.getContextPath()%>/search/song" method="post">
-                <div class="form-group">
-                    <input type="text" class="form-control" name="keyWord" placeholder="请输入搜索的歌曲">
-                </div>
-                <button type="submit" class="btn btn-default">搜索</button>
-            </form>
-        </div>
-    </div>
-</div>
-
+<%@ include file="common/navbar.jsp" %>
 
 <%--我的个人信息--%>
 <div class="container myInfo">
@@ -168,8 +126,8 @@
     </div>
 </div>
 <!--页脚-->
-<%@ include file="footer.jsp" %>
-
+<%@ include file="common/footer.jsp" %>
+<%@ include file="common/script.jsp" %>
 <script>
     /*进行登录*/
     $(".signIn").click(function () {

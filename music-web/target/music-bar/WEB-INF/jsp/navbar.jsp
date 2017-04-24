@@ -15,7 +15,7 @@
         <!--会折叠的区域-->
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav choose">
-                <li class="active"><a href="<%=request.getContextPath()%>/index/index">音乐库</a></li>
+                <li class="active"><a href="<%=request.getContextPath()%>/index/">音乐库</a></li>
                 <li><a href="<%=request.getContextPath()%>/music/myMusic">我的音乐</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

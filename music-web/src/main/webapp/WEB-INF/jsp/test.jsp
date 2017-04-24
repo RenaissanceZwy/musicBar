@@ -6,7 +6,7 @@
 <html>
 <head>
     <title>聊天室</title>
-    <%@ include file="include.jsp" %>
+    <%@ include file="common/css.jsp" %>
     <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/style.css" type="text/css" />
     <style>
         .chat-thread  .left:before{

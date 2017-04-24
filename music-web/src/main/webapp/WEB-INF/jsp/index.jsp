@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
-    <%@ include file="include.jsp" %>
+    <%@ include file="common/css.jsp" %>
     <style>
         *{ margin:0; padding:0; list-style:none;}
         *, *:before, *:after {
@@ -151,7 +151,7 @@
     </style>
 </head>
 <body>
-<%@ include file="navbar.jsp" %>
+<%@ include file="common/navbar.jsp" %>
 
 <!-- 广告轮播 -->
 <div id="ad-carousel" class="carousel slide" data-ride="carousel">
@@ -281,8 +281,8 @@
 </div>
 
 <!--页脚-->
-<%@ include file="footer.jsp" %>
-
+<%@ include file="common/footer.jsp" %>
+<%@ include file="common/script.jsp" %>
 
 
 <script>

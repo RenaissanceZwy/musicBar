@@ -5,7 +5,7 @@ import com.music.web.constant.JsonResult;
 import com.music.web.constant.JsonResultCode;
 import com.music.web.entity.User;
 import com.music.web.service.UserService;
-import com.music.web.util.FileUtil;
+import org.aspectj.util.FileUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -98,7 +98,7 @@ public class UserController {
                     return new JsonResult(JsonResultCode.FAILURE,"上传文件最大为1M","");
                 }
                 // 文件后缀名
-                String postfix = FileUtil.getPostfix(file.getOriginalFilename());
+                String postfix = com.music.web.util.FileUtil.getPostfix(file.getOriginalFilename());
                 // 相对路径+时间戳
                 String pathNotHavingPostfix = "headImg/"+ createBy +"/" + System.currentTimeMillis();
                 //相对路径+时间戳+文件后缀名
