@@ -293,7 +293,7 @@
         $.post("<%=request.getContextPath()%>/index/signIn",{username:username,password:password},function (data) {
             if(data.code == "200"){
                 if(data.object == "0"){
-                    window.location.href = "<%=request.getContextPath()%>/index/index";
+                    window.location.href = "<%=request.getContextPath()%>/index";
                 }
                 if(data.object == "2"){
                     window.location.href = "<%=request.getContextPath()%>/admin/index";

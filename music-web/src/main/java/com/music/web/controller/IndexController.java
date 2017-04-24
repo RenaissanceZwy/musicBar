@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * Created by zhaowenyi on 2016/11/15.
  */
-@RequestMapping("index")
+@RequestMapping(value={"index",""})
 @Controller
 public class IndexController {
 
@@ -32,7 +32,7 @@ public class IndexController {
     private MusicService musicService;
 
     /*主页显示*/
-   @RequestMapping(value = "/")
+   @RequestMapping(value = "")
     public String test(HttpServletRequest request, HttpServletResponse response, Model model){
        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
        model.addAttribute("user",user);

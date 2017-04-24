@@ -69,6 +69,7 @@
         webSocket.onmessage = function(event){
             //接受来自服务器的消息
             $(".chat-thread").append("<li class='left'>"+JSON.parse(event.data).messageText+"</li>");
+            scroll_down();
             console.log("来自服务器的数据"+JSON.parse(event.data).messageText);
         }
 
@@ -80,13 +81,17 @@
             data['messageText'] = $("input[name='msgText']").val();
             $(".chat-thread").append("<li class='right'>"+data['messageText']+"</li>");
             $("input[name='msgText']").val("");//清空发送框的内容
-        //    $(".chat-thread").scrollTop = $(".chat-thread").scrollHeight;
+            scroll_down();
             webSocket.send(JSON.stringify(data));//将对象封装成JSON后发送至服务器
 
         });
     });
 
 
+    function scroll_down() {
+        var height = $('.chat-thread li').innerHeight();
+        $('.chat-thread').scrollTop(height*($('.chat-thread li').length+1));
+    }
 
     function getRootPath_web() {
         //获取当前网址，如： http://localhost:8083/uimcardprj/share/meun.jsp
