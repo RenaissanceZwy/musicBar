@@ -58,7 +58,7 @@ public class AdminController {
 
         model.addAttribute("toUser",toUser);
 
-        return "test";
+        return "room";
     }
 
 

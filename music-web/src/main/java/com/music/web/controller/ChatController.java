@@ -21,7 +21,7 @@ public class ChatController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/")
+    @RequestMapping(value ="/room")
     public String test2(HttpServletRequest request, Model model, HttpServletResponse response,
                         @RequestParam(required = true ,value = "toId") Integer toId){
         User user = (User)request.getSession().getAttribute(CommonConstants.CURRENT_USER);
@@ -32,6 +32,6 @@ public class ChatController {
         User toUser = userService.getUserById(toId.toString());
         model.addAttribute("toUser",toUser);
 
-        return "test";
+        return "room";
     }
 }
