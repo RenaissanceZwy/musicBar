@@ -28,6 +28,8 @@ public class Comment implements Serializable{
 
     private int likeNum;
 
+    private int type;
+
     public Comment() {
     }
 
@@ -40,6 +42,25 @@ public class Comment implements Serializable{
         this.content = content;
         this.time = time;
         this.likeNum = likeNum;
+    }
+
+    public Comment(Long uid, Long mid, Long fid, Long fuid, String content, Date time, int likeNum, int type) {
+        this.uid = uid;
+        this.mid = mid;
+        this.fid = fid;
+        this.fuid = fuid;
+        this.content = content;
+        this.time = time;
+        this.likeNum = likeNum;
+        this.type = type;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
     }
 
     public Long getId() {
@@ -117,6 +138,7 @@ public class Comment implements Serializable{
                 ", content='" + content + '\'' +
                 ", time=" + time +
                 ", likeNum=" + likeNum +
+                ", type=" + type +
                 '}';
     }
 }

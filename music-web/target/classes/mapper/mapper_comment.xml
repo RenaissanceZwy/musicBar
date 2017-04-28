@@ -11,6 +11,7 @@
 		<result property="content" column="content"></result>
 		<result property="time" column="time"></result>
 		<result property="likeNum" column="likeNum"></result>
+		<result property="type" column="type"></result>
 	</resultMap>
 
 	<select id="selectCommentBySongId" resultType="com.music.web.vo.CommentInfo">
@@ -41,8 +42,9 @@
 	</select>
 
 	<insert id="insertComment" parameterType="Comment">
-		insert into comment (uid,mid,fid,fuid,content,time,likeNum)
-		values(#{comment.uid},#{comment.mid},#{comment.fid},#{comment.fuid},#{comment.content},#{comment.time},#{comment.likeNum})
+		insert into comment (uid,mid,fid,fuid,content,time,likeNum,type)
+		values(#{comment.uid},#{comment.mid},#{comment.fid},#{comment.fuid},#{comment.content},
+		#{comment.time},#{comment.likeNum},#{comment.type})
 	</insert>
 
 	<delete id="deleteComment">

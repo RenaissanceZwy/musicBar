@@ -10,6 +10,10 @@
 		<result property="songId" column="songId"></result>
 		<result property="picUrl" column="picUrl"></result>
 		<result property="playNum" column="playNum"></result>
+		<result property="length" column="length"></result>
+		<result property="language" column="language"></result>
+		<result property="describes" column="describes"></result>
+		<result property="singerid" column="singerid"></result>
 	</resultMap>
 
 	<select id="selectMusicBySongId" resultMap="musicMap">
@@ -27,8 +31,9 @@
 	</select>
 
 	<insert id="insertMusic" parameterType="Music">
-		insert into music (musicName,singer,albumName,songId,picUrl,playNum)
-		values(#{music.musicName},#{music.singer},#{music.albumName},#{music.songId},#{music.picUrl},#{music.playNum})
+		insert into music (musicName,singer,albumName,songId,picUrl,playNum,length,language,describes,singerid)
+		values(#{music.musicName},#{music.singer},#{music.albumName},#{music.songId},#{music.picUrl},#{music.playNum},
+		#{music.length},#{music.language},#{music.describes},#{music.singerid})
 	</insert>
 
 	<update id = "updateMusicPlayNum">

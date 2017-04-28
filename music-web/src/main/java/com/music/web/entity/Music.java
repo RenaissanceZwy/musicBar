@@ -15,6 +15,11 @@ public class Music implements Serializable{
     private String songId;
     private String picUrl;
     private int    playNum;
+    private String length;
+    private String language;
+    private String describes;
+    private int    singerid;
+
 
     public Music(String musicName, String singer, String albumName, String songId, String picUrl, int playNum) {
         this.musicName = musicName;
@@ -26,19 +31,6 @@ public class Music implements Serializable{
     }
 
     public Music() {
-    }
-
-    @Override
-    public String toString() {
-        return "Music{" +
-                "id=" + id +
-                ", musicName='" + musicName + '\'' +
-                ", singer='" + singer + '\'' +
-                ", albumName='" + albumName + '\'' +
-                ", songId='" + songId + '\'' +
-                ", picUrl='" + picUrl + '\'' +
-                ", playNum=" + playNum +
-                '}';
     }
 
     public Long getId() {
@@ -95,5 +87,54 @@ public class Music implements Serializable{
 
     public void setPlayNum(int playNum) {
         this.playNum = playNum;
+    }
+
+    public String getLength() {
+        return length;
+    }
+
+    public void setLength(String length) {
+        this.length = length;
+    }
+
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
+    public String getDescribes() {
+        return describes;
+    }
+
+    public void setDescribes(String describes) {
+        this.describes = describes;
+    }
+
+    public int getSingerid() {
+        return singerid;
+    }
+
+    public void setSingerid(int singerid) {
+        this.singerid = singerid;
+    }
+
+    @Override
+    public String toString() {
+        return "Music{" +
+                "id=" + id +
+                ", musicName='" + musicName + '\'' +
+                ", singer='" + singer + '\'' +
+                ", albumName='" + albumName + '\'' +
+                ", songId='" + songId + '\'' +
+                ", picUrl='" + picUrl + '\'' +
+                ", playNum=" + playNum +
+                ", length='" + length + '\'' +
+                ", language='" + language + '\'' +
+                ", describes='" + describes + '\'' +
+                ", singerid=" + singerid +
+                '}';
     }
 }
