@@ -15,9 +15,27 @@
     from albummusic
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectAlbumMusic" parameterType="java.lang.Integer" resultType="com.music.web.entity.Music">
+    select m.*
+    from albummusic am,music m
+    where am.mid = m.id and am.aid=#{aid}
+  </select>
+  <select id="selectRecord" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from albummusic
+    where aid = #{0} and mid=#{1}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from albummusic
     where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteBatchAlbumMusic" parameterType="java.lang.String">
+    delete from albummusic
+    where id
+    <foreach  collection="array" item="id" open="in (" close=")" separator=",">
+    #{id}
+    </foreach>
   </delete>
   <insert id="insert" parameterType="com.music.web.entity.AlbumMusic">
     insert into albummusic (id, aid, mid)
@@ -47,6 +65,13 @@
         #{mid,jdbcType=INTEGER},
       </if>
     </trim>
+  </insert>
+  <insert id="insertBatchAlbumMusic">
+    insert into albummusic (aid, mid)
+    values
+    <foreach  collection="array" item="mid"  separator=",">
+      (#{aid,jdbcType=INTEGER}, #{mid,jdbcType=INTEGER})
+    </foreach>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="com.music.web.entity.AlbumMusic">
     update albummusic
