@@ -1,6 +1,7 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Posting;
+import com.music.web.vo.PostingVo;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -16,4 +17,6 @@ public interface PostingDao {
     int updateByPrimaryKeySelective(Posting record);
 
     int updateByPrimaryKey(Posting record);
+
+    PostingVo selectPostingById(int id);
 }

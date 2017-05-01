@@ -18,6 +18,12 @@
     from posting
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectPostingById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    posting.*,u.username
+    from posting p,user u
+    where p.uid=u.id and p.id = #{id}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from posting
     where id = #{id,jdbcType=INTEGER}
