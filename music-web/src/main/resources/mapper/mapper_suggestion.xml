@@ -17,6 +17,11 @@
     from suggestion
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectSuggestions"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from suggestion
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from suggestion
     where id = #{id,jdbcType=INTEGER}
