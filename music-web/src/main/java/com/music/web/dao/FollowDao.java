@@ -16,4 +16,8 @@ public interface FollowDao {
     int updateByPrimaryKeySelective(Follow record);
 
     int updateByPrimaryKey(Follow record);
+
+    int deleteFollow(Follow follow);
+
+    Follow selectFollow(Follow follow);
 }

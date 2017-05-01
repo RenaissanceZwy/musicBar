@@ -15,9 +15,19 @@
     from follow
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectFollow" parameterType="com.music.web.entity.Follow" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from follow
+    where (uid1=#{uid1} and uid2=#{uid2}) or (uid1=#{uid2} and uid2=#{uid1})
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from follow
     where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteFollow" parameterType="com.music.web.entity.Follow">
+    delete from follow
+    where (uid1=#{uid1} and uid2=#{uid2}) or (uid1=#{uid2} and uid2=#{uid1})
   </delete>
   <insert id="insert" parameterType="com.music.web.entity.Follow">
     insert into follow (id, uid1, uid2
