@@ -1,6 +1,7 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Label;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -16,4 +17,6 @@ public interface LabelDao {
     int updateByPrimaryKeySelective(Label record);
 
     int updateByPrimaryKey(Label record);
+
+    Label selectLabelByType(@Param("filter") String filter,@Param("type") int type);
 }

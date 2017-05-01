@@ -44,7 +44,7 @@ public class FollowServiceImpl implements FollowService{
         try{
             result = followDao.selectFollow(follow);
         }catch (Exception e){
-            logger.info("[FollowServiceImpl][insertFollow]follow:"+follow.toString()+e);
+            logger.info("[FollowServiceImpl][selectFollow]follow:"+follow.toString()+e);
         }
         return result;
     }

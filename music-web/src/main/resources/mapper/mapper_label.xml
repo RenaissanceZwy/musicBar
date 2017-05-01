@@ -16,6 +16,18 @@
     from label
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectLabel"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from label
+    where
+    <if test="type==0">
+      id = #{filter}
+    </if>
+    <if test="type==1">
+      name = #{filter}
+    </if>
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from label
     where id = #{id,jdbcType=INTEGER}
