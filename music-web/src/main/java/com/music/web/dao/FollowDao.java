@@ -1,8 +1,10 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Follow;
+import org.springframework.stereotype.Repository;
 
-public interface FollowMapper {
+@Repository
+public interface FollowDao {
     int deleteByPrimaryKey(Integer id);
 
     int insert(Follow record);

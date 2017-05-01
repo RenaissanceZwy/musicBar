@@ -1,8 +1,10 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Suggestion;
+import org.springframework.stereotype.Repository;
 
-public interface SuggestionMapper {
+@Repository
+public interface SuggestionDao {
     int deleteByPrimaryKey(Integer id);
 
     int insert(Suggestion record);

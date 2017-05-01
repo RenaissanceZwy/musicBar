@@ -1,8 +1,10 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Album;
+import org.springframework.stereotype.Repository;
 
-public interface AlbumMapper {
+@Repository
+public interface AlbumDao {
     int deleteByPrimaryKey(Integer id);
 
     int insert(Album record);

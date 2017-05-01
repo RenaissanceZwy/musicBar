@@ -1,8 +1,10 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Label;
+import org.springframework.stereotype.Repository;
 
-public interface LabelMapper {
+@Repository
+public interface LabelDao {
     int deleteByPrimaryKey(Integer id);
 
     int insert(Label record);

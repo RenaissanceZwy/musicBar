@@ -1,8 +1,10 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Posting;
+import org.springframework.stereotype.Repository;
 
-public interface PostingMapper {
+@Repository
+public interface PostingDao {
     int deleteByPrimaryKey(Integer id);
 
     int insert(Posting record);

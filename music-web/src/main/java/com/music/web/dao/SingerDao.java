@@ -1,8 +1,10 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Singer;
+import org.springframework.stereotype.Repository;
 
-public interface SingerMapper {
+@Repository
+public interface SingerDao {
     int deleteByPrimaryKey(Integer id);
 
     int insert(Singer record);
