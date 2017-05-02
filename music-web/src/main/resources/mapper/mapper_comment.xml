@@ -12,26 +12,28 @@
 		<result property="time" column="time"></result>
 		<result property="likeNum" column="likeNum"></result>
 		<result property="type" column="type"></result>
+		<result property="status" column="status"></result>
 	</resultMap>
 
 	<select id="selectCommentBySongId" resultType="com.music.web.vo.CommentInfo">
 		select comment.* ,user.username,user.headImg
 		from user ,comment
-		where comment.uid = user.id and comment.mid = #{songId}
+		where comment.uid = user.id and comment.mid = #{id} and comment.status=1
+		and comment.type=#{type}
 		order by comment.likeNum desc
 	</select>
 
 	<select id="selectCommentByUid" resultType="com.music.web.vo.CommentInfo">
 		select comment.* ,user.username,user.headImg
 		from user ,comment
-		where comment.uid = user.id and comment.uid = #{uid}
+		where comment.uid = user.id and comment.uid = #{uid} and comment.status=1
 		order by comment.time desc
 	</select>
 
 	<select id="selectComments" resultType="com.music.web.vo.CommentInfo">
 		select comment.* ,user.username,user.headImg
 		from user ,comment
-		where comment.uid = user.id
+		where comment.uid = user.id and comment.status=1
 		order by comment.time desc
 	</select>
 
@@ -42,15 +44,15 @@
 	</select>
 
 	<insert id="insertComment" parameterType="Comment">
-		insert into comment (uid,mid,fid,fuid,content,time,likeNum,type)
+		insert into comment (uid,mid,fid,fuid,content,time,likeNum,type,status)
 		values(#{comment.uid},#{comment.mid},#{comment.fid},#{comment.fuid},#{comment.content},
-		#{comment.time},#{comment.likeNum},#{comment.type})
+		#{comment.time},#{comment.likeNum},#{comment.type},1)
 	</insert>
 
-	<delete id="deleteComment">
-		delete FROM  comment
+	<update id="deleteComment">
+		update  comment set status=0
 		where id = #{id}
-	</delete>
+	</update>
 
 	<update id="updateCommentLike">
 		update comment set likeNum = #{like}

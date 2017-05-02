@@ -30,6 +30,8 @@ public class Comment implements Serializable{
 
     private int type;
 
+    private  int status;
+
     public Comment() {
     }
 
@@ -127,6 +129,14 @@ public class Comment implements Serializable{
         this.likeNum = likeNum;
     }
 
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
     @Override
     public String toString() {
         return "Comment{" +
@@ -139,6 +149,7 @@ public class Comment implements Serializable{
                 ", time=" + time +
                 ", likeNum=" + likeNum +
                 ", type=" + type +
+                ", status=" + status +
                 '}';
     }
 }

@@ -14,7 +14,7 @@ import java.util.List;
 public interface CommentDao {
 
     /*通过歌曲id获取歌曲的评论信息*/
-    public List<CommentInfo> selectCommentBySongId(@Param("songId") String songId);
+    public List<CommentInfo> selectCommentBySongId(@Param("id") String id,@Param("type") int type);
 
     public List<CommentInfo> selectCommentByUid(@Param("uid") Long uid);
 

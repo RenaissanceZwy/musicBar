@@ -22,12 +22,12 @@ public class CommentServiceImpl implements CommentService {
     @Autowired
     private CommentDao commentDao;
 
-    public List<CommentInfo> getCommentBySongId(String songId) {
+    public List<CommentInfo> getComment(String id,int type) {
         List<CommentInfo> commentInfos = null;
         try{
-            commentInfos = commentDao.selectCommentBySongId(songId);
+            commentInfos = commentDao.selectCommentBySongId(id,type);
         }catch (Exception e){
-            logger.error("[CommentServiceImpl][getCommentBySongId]"+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
+            logger.error("[CommentServiceImpl][getComment]"+e.getLocalizedMessage() + ":" + e);
         }
         return commentInfos;
     }

@@ -11,7 +11,7 @@ import java.util.List;
 public interface CommentService {
 
     /*通过歌曲id获取歌曲的评论信息*/
-    public List<CommentInfo> getCommentBySongId( String songId);
+    public List<CommentInfo> getComment( String songId,int type);
 
     /*通过用户id获取歌曲的评论信息*/
     public List<CommentInfo> getCommentByUid(Long uid);

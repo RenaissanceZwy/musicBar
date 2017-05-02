@@ -150,7 +150,7 @@ public class MusicController {
 
 
         /*获取评论信息*/
-        List<CommentInfo> commentInfo = commentService.getCommentBySongId(songId);
+        List<CommentInfo> commentInfo = commentService.getComment(songId,0);
         model.addAttribute("commentInfo",commentInfo);
 
        /* 如果用户已经登录*/
