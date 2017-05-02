@@ -80,7 +80,7 @@ public class UserController {
        // List<MultipartFile> files = request.getFiles("filedata");
        /* 获取用户id*/
         User user = (User)request.getSession().getAttribute(CommonConstants.CURRENT_USER);
-        Long createBy = user.getId();
+        Integer createBy = user.getId();
 
         /*List<String> urList = new ArrayList<String>();*/
         String imgPath = new String();

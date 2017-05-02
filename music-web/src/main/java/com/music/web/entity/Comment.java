@@ -13,13 +13,13 @@ public class Comment implements Serializable{
 
     private Long id;
 
-    private Long uid;
+    private Integer uid;
 
     private Long mid;
 
     private Long fid;
 
-    private Long fuid;
+    private Integer fuid;
 
     private String content;
 
@@ -34,7 +34,7 @@ public class Comment implements Serializable{
     }
 
 
-    public Comment(Long uid, Long mid, Long fid, Long fuid, String content, Date time, int likeNum) {
+    public Comment(Integer uid, Long mid, Long fid, Integer fuid, String content, Date time, int likeNum) {
         this.uid = uid;
         this.mid = mid;
         this.fid = fid;
@@ -44,7 +44,7 @@ public class Comment implements Serializable{
         this.likeNum = likeNum;
     }
 
-    public Comment(Long uid, Long mid, Long fid, Long fuid, String content, Date time, int likeNum, int type) {
+    public Comment(Integer uid, Long mid, Long fid, Integer fuid, String content, Date time, int likeNum, int type) {
         this.uid = uid;
         this.mid = mid;
         this.fid = fid;
@@ -71,11 +71,11 @@ public class Comment implements Serializable{
         this.id = id;
     }
 
-    public Long getUid() {
+    public Integer getUid() {
         return uid;
     }
 
-    public void setUid(Long uid) {
+    public void setUid(Integer uid) {
         this.uid = uid;
     }
 
@@ -103,11 +103,11 @@ public class Comment implements Serializable{
         this.fid = fid;
     }
 
-    public Long getFuid() {
+    public Integer getFuid() {
         return fuid;
     }
 
-    public void setFuid(Long fuid) {
+    public void setFuid(Integer fuid) {
         this.fuid = fuid;
     }
 

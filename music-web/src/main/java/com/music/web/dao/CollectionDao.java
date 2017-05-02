@@ -14,15 +14,15 @@ import java.util.List;
 public interface CollectionDao {
 
     /*获取某个用户的收藏*/
-    public List<Music> selectMusicByUser(@Param("uid") Long uid, @Param("type") int type);
+    public List<Music> selectMusicByUser(@Param("uid") Integer uid, @Param("type") int type);
 
-    public int selecCollectionCountByUidAndMid(@Param("mid") Long mid,@Param("uid") Long uid,@Param("type") int type);
+    public int selecCollectionCountByUidAndMid(@Param("mid") Long mid,@Param("uid") Integer uid,@Param("type") int type);
 
     /* 进行插入收藏操做*/
     public int insertCollection(@Param("collect")CollectionMusic collectionMusic);
 
    /* 进行删除操做*/
-    public int deleteCollection(@Param("mid") Long mid,@Param("uid") Long uid,@Param("type") int type);
+    public int deleteCollection(@Param("mid") Long mid,@Param("uid") Integer uid,@Param("type") int type);
 
 
 

@@ -28,6 +28,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.List;
 
+import static com.music.web.constant.CommonConstants.RECENT_PLAY;
+
 /**
  * Created by Administrator on 2016/11/17.
  */
@@ -54,7 +56,7 @@ public class MusicController {
        /* 如果用户已经登录*/
         if(user!= null){
            /*获取用户的评论*/
-            List<CommentInfo> commentInfos = commentService.getCommentByUid(user.getId());
+            List<CommentInfo> commentInfos = commentService.getCommentByUid(Long.valueOf(user.getId()));
             model.addAttribute("commentInfos",commentInfos);
 
         /*获取用户的最近播放*/
@@ -158,12 +160,12 @@ public class MusicController {
             model.addAttribute("collected",collected);
 
              /*加入用户最近播放队列*/
-            boolean recntPlay = collectionService.checkCollectionExist(Long.valueOf(songId),user.getId(),CommonConstants.RECENT_PLAY);
+            boolean recntPlay = collectionService.checkCollectionExist(Long.valueOf(songId),user.getId(), RECENT_PLAY);
             if(recntPlay){
-                collectionService.deleteCollection(Long.valueOf(songId),user.getId(),CommonConstants.RECENT_PLAY);
+                collectionService.deleteCollection(Long.valueOf(songId),user.getId(), RECENT_PLAY);
             }
 
-            CollectionMusic collectionMusic = new CollectionMusic(user.getId(),Long.valueOf(songId),new Date(),CommonConstants.RECENT_PLAY);
+            CollectionMusic collectionMusic = new CollectionMusic(user.getId(),Long.valueOf(songId),new Date(), RECENT_PLAY);
             collectionService.insertCollection(collectionMusic);
         }
 

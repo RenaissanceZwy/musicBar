@@ -24,7 +24,7 @@ public class CollectionServiceImpl implements CollectionService {
     @Autowired
     private CollectionDao collectionDao;
 
-    public List<Music> selectMusicByUser(Long uid, int type) {
+    public List<Music> selectMusicByUser(Integer uid, int type) {
         List<Music> musics = null;
         try{
             musics = collectionDao.selectMusicByUser(uid,type);
@@ -34,7 +34,7 @@ public class CollectionServiceImpl implements CollectionService {
         return musics;
     }
 
-    public boolean checkCollectionExist(Long mid, Long uid, int type) {
+    public boolean checkCollectionExist(Long mid, Integer uid, int type) {
         int result = 0;
         try{
             result = collectionDao.selecCollectionCountByUidAndMid(mid,uid,type);
@@ -54,7 +54,7 @@ public class CollectionServiceImpl implements CollectionService {
         return result>0 ?true:false;
     }
 
-    public boolean deleteCollection(Long mid,Long uid, int type) {
+    public boolean deleteCollection(Long mid,Integer uid, int type) {
         int result = 0;
         try{
             result = collectionDao.deleteCollection(mid,uid,type);

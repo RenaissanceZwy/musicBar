@@ -11,7 +11,7 @@ public class CollectionMusic implements Serializable{
     private static final long serialVersionUID = 1L;
 
     private Long id;
-    private Long uid;
+    private Integer uid;
     private Long mid;
     private Date time;
     private int type;
@@ -19,7 +19,7 @@ public class CollectionMusic implements Serializable{
     public CollectionMusic() {
     }
 
-    public CollectionMusic( Long uid, Long mid, Date time, int type) {
+    public CollectionMusic( Integer uid, Long mid, Date time, int type) {
         this.uid = uid;
         this.mid = mid;
         this.time = time;
@@ -34,11 +34,11 @@ public class CollectionMusic implements Serializable{
         this.id = id;
     }
 
-    public Long getUid() {
+    public Integer getUid() {
         return uid;
     }
 
-    public void setUid(Long uid) {
+    public void setUid(Integer uid) {
         this.uid = uid;
     }
 
