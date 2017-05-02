@@ -16,7 +16,7 @@
     from label
     where id = #{id,jdbcType=INTEGER}
   </select>
-  <select id="selectLabel"  resultMap="BaseResultMap">
+  <select id="selectLabelByType"  resultMap="BaseResultMap">
     select
     <include refid="Base_Column_List" />
     from label
