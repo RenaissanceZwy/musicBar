@@ -68,10 +68,7 @@
   </insert>
   <insert id="insertBatchAlbumMusic">
     insert into albummusic (aid, mid)
-    values
-    <foreach  collection="array" item="mid"  separator=",">
-      (#{aid,jdbcType=INTEGER}, #{mid,jdbcType=INTEGER})
-    </foreach>
+    values (#{0}, #{1})
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="com.music.web.entity.AlbumMusic">
     update albummusic

@@ -32,13 +32,12 @@ public class AlbumMusicServiceImpl implements AlbumMusicService {
         return musics;
     }
 
-    public boolean insertAlbumMusic(int aid, String mids) {
+    public boolean insertAlbumMusic(int aid, String mid) {
         int result = 0;
         try{
-            String[] midStr = mids.split("\\|");
-            result = albumMusicDao.insertBatchAlbumMusic(aid,midStr);
+            result = albumMusicDao.insertBatchAlbumMusic(aid,mid);
         }catch (Exception e){
-            logger.info("[AlbumMusicServiceImpl][insertAlbumMusic]aid:"+aid+"mids:"+mids.toString()+e);
+            logger.info("[AlbumMusicServiceImpl][insertAlbumMusic]aid:"+aid+"mids:"+mid+e);
         }
         return result>0;
     }
@@ -46,10 +45,10 @@ public class AlbumMusicServiceImpl implements AlbumMusicService {
     public boolean deleteMusicFromAlbum(String ids) {
         int result = 0;
         try{
-            String[] midStr = ids.split("\\|");
-             result = albumMusicDao.deleteBatchAlbumMusic(midStr);
+            String[] midStr = ids.split("\\_");
+            result = albumMusicDao.deleteBatchAlbumMusic(midStr);
         }catch (Exception e){
-            logger.info("[AlbumMusicServiceImpl][insertAlbumMusic] mids:"+ids.toString()+e);
+            logger.info("[AlbumMusicServiceImpl][deleteMusicFromAlbum] ids:"+ids.toString()+e);
         }
         return result>0;
     }

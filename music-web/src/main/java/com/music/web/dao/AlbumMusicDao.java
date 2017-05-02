@@ -27,7 +27,7 @@ public interface AlbumMusicDao {
     int deleteBatchAlbumMusic(String[] ids);
 
     //批量新增专辑下面的音乐
-    int insertBatchAlbumMusic(int aid,String[] mids);
+    int insertBatchAlbumMusic(int aid,String mid);
 
     //判断某条记录是否存在
     AlbumMusic selectRecord(int aid ,int mid);
