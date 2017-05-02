@@ -29,6 +29,16 @@ public class AlbumServiceImpl implements AlbumService {
         return album;
     }
 
+    public Album selectAlbumInfo(String name) {
+        Album album = null;
+        try{
+            album = albumDao.selectByName(name);
+        }catch (Exception e){
+            logger.info("[AlbumServiceImpl][selectAlbumInfo]name:"+name+e);
+        }
+        return album;
+    }
+
     public boolean insertAlbum(Album album) {
         int result = 0;
         try{

@@ -16,4 +16,7 @@ public interface AlbumDao {
     int updateByPrimaryKeySelective(Album record);
 
     int updateByPrimaryKey(Album record);
+
+    //通过名称获取歌单
+    Album selectByName(String name);
 }
