@@ -15,6 +15,16 @@ public class Album {
 
     private String picurl;
 
+    private int status;
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -61,5 +71,18 @@ public class Album {
 
     public void setPicurl(String picurl) {
         this.picurl = picurl == null ? null : picurl.trim();
+    }
+
+    @Override
+    public String toString() {
+        return "Album{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", createtime=" + createtime +
+                ", colnum=" + colnum +
+                ", describes='" + describes + '\'' +
+                ", picurl='" + picurl + '\'' +
+                ", status=" + status +
+                '}';
     }
 }

@@ -8,9 +8,10 @@
     <result column="colnum" jdbcType="INTEGER" property="colnum" />
     <result column="describes" jdbcType="VARCHAR" property="describes" />
     <result column="picurl" jdbcType="VARCHAR" property="picurl" />
+    <result column="status" jdbcType="INTEGER" property="status" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, name, createtime, colnum, describes, picurl
+    id, name, createtime, colnum, describes, picurl,status
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
@@ -22,18 +23,18 @@
     select
     <include refid="Base_Column_List" />
     from album
-    where name = #{name}
+    where name = #{name} and status=1
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from album
+  <update id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    update album set status=0
     where id = #{id,jdbcType=INTEGER}
-  </delete>
+  </update>
   <insert id="insert" parameterType="com.music.web.entity.Album">
     insert into album (id, name, createtime, 
-      colnum, describes, picurl
+      colnum, describes, picurl,status
       )
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, 
-      #{colnum,jdbcType=INTEGER}, #{describes,jdbcType=VARCHAR}, #{picurl,jdbcType=VARCHAR}
+      #{colnum,jdbcType=INTEGER}, #{describes,jdbcType=VARCHAR}, #{picurl,jdbcType=VARCHAR},1
       )
   </insert>
   <insert id="insertSelective" parameterType="com.music.web.entity.Album">
