@@ -8,9 +8,10 @@
     <result column="content" jdbcType="VARCHAR" property="content" />
     <result column="label" jdbcType="VARCHAR" property="label" />
     <result column="createtime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, uid, title, content, label, createtime
+    id, uid, title, content, label, createtime,status
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
@@ -24,16 +25,16 @@
     from posting p,user u
     where p.uid=u.id and p.id = #{id}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from posting
+  <update id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    update posting set status=0
     where id = #{id,jdbcType=INTEGER}
-  </delete>
+  </update>
   <insert id="insert" parameterType="com.music.web.entity.Posting">
     insert into posting (id, uid, title, 
-      content, label, createtime
+      content, label, createtime,status
       )
     values (#{id,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, 
-      #{content,jdbcType=VARCHAR}, #{label,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}
+      #{content,jdbcType=VARCHAR}, #{label,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP},1
       )
   </insert>
   <insert id="insertSelective" parameterType="com.music.web.entity.Posting">

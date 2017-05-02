@@ -15,6 +15,8 @@ public class Posting {
 
     private Date createtime;
 
+    private int status;
+
     public Integer getId() {
         return id;
     }
@@ -61,5 +63,26 @@ public class Posting {
 
     public void setCreatetime(Date createtime) {
         this.createtime = createtime;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "Posting{" +
+                "id=" + id +
+                ", uid=" + uid +
+                ", title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                ", label='" + label + '\'' +
+                ", createtime=" + createtime +
+                ", status=" + status +
+                '}';
     }
 }
