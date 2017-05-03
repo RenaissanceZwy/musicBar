@@ -4,8 +4,8 @@ import com.music.web.constant.CommonConstants;
 import com.music.web.constant.JsonResult;
 import com.music.web.constant.JsonResultCode;
 import com.music.web.entity.User;
+import com.music.web.service.CollectionService;
 import com.music.web.service.UserService;
-import org.aspectj.util.FileUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +22,7 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
+import java.util.List;
 
 /**
  * Created by Administrator on 2016/11/17.
@@ -34,6 +35,9 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private CollectionService collectionService;
 
 
     /**
@@ -135,7 +139,6 @@ public class UserController {
     /**
      * 修改用户信息操作
      * @param request
-     * @param user
      * @return
      */
     @ResponseBody
@@ -153,5 +156,24 @@ public class UserController {
         }
 
         return  new JsonResult(JsonResultCode.SUCCESS,"操作成功","");
+    }
+
+    /**
+     * 获取用户的收藏和喜爱
+     * @param request
+     * @param model
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "collection",method = {RequestMethod.GET, RequestMethod.POST})
+    public JsonResult getUserCollection(HttpServletRequest request,Model model){
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
+        if(user == null){
+            return new JsonResult(JsonResultCode.FAILURE,"请先进行登录","");
+        }
+        String typeStr = request.getParameter("type");
+        int type = typeStr == null ? 0 :Integer.valueOf(typeStr);
+        List lists = collectionService.selectByUser(user.getId(),type);
+        return  new JsonResult(JsonResultCode.SUCCESS,"操作成功",lists);
     }
 }

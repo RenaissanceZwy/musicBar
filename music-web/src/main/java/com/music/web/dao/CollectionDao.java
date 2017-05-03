@@ -16,6 +16,9 @@ public interface CollectionDao {
     /*获取某个用户的收藏*/
     public List<Music> selectMusicByUser(@Param("uid") Integer uid, @Param("type") int type);
 
+    /*1 音乐收藏 2 歌手收藏 3 歌单收藏 4 音乐喜爱*/
+    public List selectByUser(@Param("uid") Integer uid, @Param("type") int type);
+
     public int selecCollectionCountByUidAndMid(@Param("mid") Long mid,@Param("uid") Integer uid,@Param("type") int type);
 
     /* 进行插入收藏操做*/

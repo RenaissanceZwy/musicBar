@@ -16,6 +16,24 @@
         where collection.mid = music.songId and collection.uid = #{uid} and collection.type = #{type}
     </select>
 
+    <select id="selectByUser" resultType="java.lang.Object">
+        <if test="type==1||4">
+            select music.*
+            from collection , music
+            where collection.mid = music.songId and collection.uid = #{uid} and collection.type = #{type}
+        </if>
+        <if test="type==2">
+            select singer.*
+            from collection , singer
+            where collection.mid = singer.id and collection.uid = #{uid} and collection.type = #{type}
+        </if>
+        <if test="type==3">
+            select album.*
+            from collection , album
+            where collection.mid = album.id and collection.uid = #{uid} and collection.type = #{type}
+        </if>
+    </select>
+
     <select id="selecCollectionCountByUidAndMid" resultType="int">
         select count(*) from collection
         where uid= #{uid} and mid =#{mid} and type = #{type}

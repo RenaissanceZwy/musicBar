@@ -34,6 +34,16 @@ public class CollectionServiceImpl implements CollectionService {
         return musics;
     }
 
+    public List selectByUser(Integer uid, int type) {
+        List musics = null;
+        try{
+            musics = collectionDao.selectByUser(uid,type);
+        }catch (Exception e){
+            logger.error("[CollectionServiceImpl][selectMusicByUser]:uid="+uid+"mid="+mid+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
+        }
+        return musics;
+    }
+
     public boolean checkCollectionExist(Long mid, Integer uid, int type) {
         int result = 0;
         try{
