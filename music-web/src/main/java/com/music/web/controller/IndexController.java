@@ -84,7 +84,7 @@ public class IndexController {
             return  new JsonResult(JsonResultCode.FAILURE,"该用户名已经存在","");
         }
 
-        User user = new User(username,password,"","","",0,0);
+        User user = new User(username,password,"","","0",0,0);
         boolean result = userService.insertUser(user);
         if(!result){
             return  new JsonResult(JsonResultCode.FAILURE,"用户注册失败","");
@@ -100,5 +100,15 @@ public class IndexController {
         request.getSession().setAttribute(CommonConstants.CURRENT_USER,null);
 
         return "index";
+    }
+
+    /*进行登出操作*/
+    @ResponseBody
+    @RequestMapping(value = "/sign/out",method ={RequestMethod.GET, RequestMethod.POST} )
+    public JsonResult signOutJson(HttpServletRequest request, Model model){
+
+        request.getSession().setAttribute(CommonConstants.CURRENT_USER,null);
+
+        return  new JsonResult(JsonResultCode.SUCCESS,"登出成功","");
     }
 }
