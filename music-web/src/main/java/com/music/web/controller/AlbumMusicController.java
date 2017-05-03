@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
+ * 歌单和音乐的映射
  * Created by Administrator on 2017/4/29.
  */
 @RequestMapping(value = "albumMusic")

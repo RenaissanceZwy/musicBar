@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
 /**
+ * 歌单相关
  * Created by Administrator on 2017/5/1.
  */
 @RequestMapping(value = "album")
@@ -83,7 +84,7 @@ public class AlbumController {
     }
 
     /**
-     * 获取一个歌单的信息
+     * 判断歌单是否存在
      * @param request
      * @param model
      * @return
