@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.music.web.dao.UserDao">
+
+    <resultMap type="User" id="usersMap">
+        <result property="id" column="id"></result>
+        <result property="username" column="username"></result>
+		<result property="password" column="password"></result>
+		<result property="email" column="email"></result>
+		<result property="headImg" column="headimg"></result>
+		<result property="sex" column="sex"></result>
+		<result property="age" column="age"></result>
+		<result property="status" column="status"></result>
+	</resultMap>
+
+	<select id="selectAllUsers" resultMap="usersMap">
+		select * from user
+	</select>
+
+	<select id="selectUserById" resultMap="usersMap">
+		select * from user where id=#{id}
+	</select>
+
+	<select id="selectCountOfName" resultType="int">
+		select count(*) from user where  username = #{username}
+	</select>
+
+	<select id="selectUserByUser" resultMap="usersMap">
+		select * from user where username = #{username}
+		and password = #{password}
+	</select>
+
+	<insert id="insertUser" parameterType="User">
+		  insert into user(username,password,email,sex,age,headimg,status)
+		  values(#{user.username} ,#{user.password},#{user.email},
+		  #{user.sex},#{user.age},#{user.headImg},#{user.status})
+	</insert>
+
+	<update id="updateUser" parameterType="User">
+		update user set  password = #{user.password} ,email = #{user.email},
+		sex = #{user.sex} ,age=#{user.age},headimg=#{user.headImg}
+		where  id = #{user.id}
+	</update>
+
+	<update id="updateUserStauts" >
+		update user set  status = #{status}
+		where  id = #{uid}
+	</update>
+	
+</mapper> 
