@@ -1,0 +1,51 @@
+.rec-row{
+    background-color: white;
+}
+.ant-card {
+    width: 200px;
+    text-align: center;
+}
+.ant-card-head{
+    background-color: #108EE9;
+}
+.ant-card-head .ant-card-head-title{
+    color: white;
+}
+.ant-card-head:hover{
+    background-color: #0e77ca;
+    cursor: pointer;
+}
+.ant-card-body{
+    font-size: 40px;
+}
+.ant-card:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #888888;
+}
+.rec-title{
+    background-color: #108EE9;
+    padding: 15px 15px 15px 15px;
+    margin: 25px;
+    color: white;
+    font-size: 15px;
+}
+.rec-title:hover{
+    background-color: #0e77ca;
+    box-shadow: 3px 3px 3px #888888;
+    cursor: pointer;
+}
+.rec-table{
+    width: 100%;
+    padding: 15px;
+    box-shadow: 3px -3px 3px -3px  #888888;
+}
+.ant-table img{
+    width: 15px;
+    height: 15px;
+}
+.ant-table-thead{
+    display: none;
+}
+.ant-table-row{
+    font-size: 14px;
+}

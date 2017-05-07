@@ -1,0 +1,9 @@
+.singer-list{
+    text-align: center;
+}
+.singer-list img:hover{
+    box-shadow: 3px 3px 3px #888888;
+}
+.singer-list h1{
+    margin: 15px auto 15px;
+}
