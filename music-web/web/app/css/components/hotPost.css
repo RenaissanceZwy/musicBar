@@ -1,0 +1,13 @@
+.post-table{
+    background-color: #F2F2F2;
+    padding: 25px 25px 15px 35px;
+}
+.post-table:hover{
+    background-color: #108EE9 ;
+    color: white;
+    box-shadow: 3px 3px 3px #888888;
+}
+.post-table img{
+    width: 80px;
+    height: 80px;
+}

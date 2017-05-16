@@ -2,6 +2,8 @@ package com.music.web.service;
 
 import com.music.web.entity.Album;
 
+import java.util.List;
+
 /**
  * Created by Administrator on 2017/4/29.
  */
@@ -18,4 +20,6 @@ public interface AlbumService {
 
     //删除歌单
     boolean deleteAlbum(int aid);
+
+    List<Album> selectAllAlbums();
 }

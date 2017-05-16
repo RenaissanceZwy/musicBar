@@ -1,0 +1,57 @@
+.rank{
+    margin-top: 55px;
+    padding-bottom: 55px;
+    background-image: url('../../img/index_bg.jpg');
+}
+.rank .block1{
+    text-align: center;
+    color: white;
+}
+.rank .block1 img{
+    width: 100%;
+    height: 250px;
+}
+.rank .block1 .block1-title{
+    margin-top: -175px;
+}
+.rank  hr{
+    border-color: white;
+}
+.rank .block2{
+    background-color: white;
+    height: 250px;
+    font-size: 14px;
+}
+.rank  ul{
+    width: 80%;
+    margin: 25px auto;
+}
+.rank ul li {
+    margin-bottom: 10px;
+}
+.rank  ul li:hover {
+    background-color:#108EE9 ;
+    color:white;
+    cursor: pointer;
+}
+.rank .block3{
+    text-align: center;
+    color: white;
+}
+.rank .block3 img{
+    width: 100%;
+    height: 250px;
+}
+.rank .block3 .block3-title{
+    margin-top: -175px;
+}
+.rank .block4{
+    background-color: white;
+    height: 250px;
+    font-size: 14px;
+}
+.rank .block5{
+    background-color: white;
+    height: 250px;
+    font-size: 14px;
+}

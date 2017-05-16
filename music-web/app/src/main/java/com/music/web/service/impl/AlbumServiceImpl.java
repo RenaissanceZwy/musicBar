@@ -8,6 +8,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by Administrator on 2017/4/29.
  */
@@ -57,5 +59,9 @@ public class AlbumServiceImpl implements AlbumService {
             logger.info("[AlbumServiceImpl][deleteAlbum] aid:"+aid+e);
         }
         return result>0;
+    }
+
+    public List<Album> selectAllAlbums() {
+        return null;
     }
 }

@@ -9,6 +9,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by Administrator on 2017/4/29.
  */
@@ -48,5 +50,9 @@ public class PostingServiceImpl implements PostingService {
             logger.info("[PostingServiceImpl][selectPosting]id:"+id+e);
         }
         return result;
+    }
+
+    public List<PostingVo> selectPostings() {
+        return null;
     }
 }

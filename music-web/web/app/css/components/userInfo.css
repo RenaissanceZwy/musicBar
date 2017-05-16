@@ -1,0 +1,36 @@
+.user-profile{
+    color: white;
+}
+.user-profile-bg{
+    width: 100%;
+    height: 500px;
+}
+.user-profile-box{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: -500px;
+    text-align: center;
+}
+.user-profile-box .user-profile-avatar{
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+}
+.user-profile-box h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.user-profile-box .menu_bar{
+    font-size: 15px;
+    line-height: 50px;
+    background-color: transparent;
+    border: none;
+}
+.user-profile-box .ant-menu{
+    background: transparent;
+    text-align: center;
+    border: none;
+    width: 32%;
+    margin: 85px auto auto auto;
+}

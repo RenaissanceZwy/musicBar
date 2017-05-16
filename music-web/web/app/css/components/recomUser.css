@@ -1,0 +1,41 @@
+.user-avatar{
+    text-align:center;
+}
+.user-avatar img {
+    width: 80%;
+}
+.user-avatar img:hover{
+    box-shadow: 3px 3px 3px #888888;
+}
+.user-info{
+    text-align: center;
+    margin-top: 20%;
+    margin-right:-50px;
+    padding: 25px 35px 25px 35px ;
+    box-shadow: 3px 3px 3px #888888;
+}
+.user-info .ant-btn{
+    margin-right: 25px;
+}
+.user-cmn{
+    text-align: center;
+    margin-top: 20%;
+    margin-left:-50px;
+    padding: 25px 35px 25px 35px ;
+    box-shadow: 3px 3px 3px #888888;
+}
+.user-cmn ul {
+    width: 50%;
+    margin:15px auto 15px auto;
+}
+.user-cmn ul li{
+    text-align: left;
+}
+hr{
+    width: 50%;
+    margin: 15px 0px 15px;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
