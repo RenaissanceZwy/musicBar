@@ -2,285 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0164ad2f-2cd6-4f81-a9ad-51550e8f5c64" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/artifacts/music_web_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/artifacts/music_web_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_alibaba_fastjson_1_1_41.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_18.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_18.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../music-web.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/aop/TimeCostAspect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/bean/MyHandShakeInterceptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/bean/MyWebSocketConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/bean/MyWebSocketHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/constant/CommonConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/constant/JsonResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/constant/JsonResultCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/AdminController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/AlbumController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/AlbumMusicController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/ChatController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/CommentController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/FollowController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/IndexController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/LabelController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/MusicController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/PostingController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/SearchController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/SingerController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/SuggestionController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/controller/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/AlbumDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/AlbumMusicDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/CollectionDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/CommentDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/DownloadDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/FollowDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/LabelDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/MusicDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/PostingDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/SingerDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/SuggestionDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/dao/UserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Album.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/AlbumMusic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/CollectionMusic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Comment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Download.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Follow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Label.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Message.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Music.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Posting.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Singer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/Suggestion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/entity/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/AlbumMusicService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/AlbumService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/CollectionService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/CommentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/DownloadService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/FollowService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/LabelService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/MusicService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/PostingService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/SingerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/SuggestionService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/AlbumMusicServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/AlbumServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/CollectionServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/CommentServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/DownloadServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/FollowServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/LabelServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/MusicServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/PostingServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/SingerServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/SuggestionServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/service/impl/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/util/FileUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/util/PureNetUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/util/RedisService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/vo/CommentInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/java/com/music/web/vo/PostingVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/generatorConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_album.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_albummMusic.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_collection.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_comment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_download.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_follow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_label.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_music.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_posting.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_singer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_suggestion.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/mapper/mapper_user.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/redis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/redis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/spring-mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/common/css.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/common/footer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/common/navbar.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/common/script.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/myMusic.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/play.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/resultList.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/room.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/userInfo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/css/footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/css/lanrenzhijia.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/301.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/302.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/303.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/338F8MX.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/3iirf2f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/41260.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/50472.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/50587.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/50735.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/82fLDu4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/E09T8tf (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/E09T8tf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/LIqj0nr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/Mb6Nzj5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/PGIC6ME.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/V5i67V2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/banner_pc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_index_new.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_index_top.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_index_top1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_index_top2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_index_top3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_index_top4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_index_top6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_like.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/bg_profile_unlogin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/i1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/i2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/icon_list_menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/lIhwduj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/qqdoddi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/search-bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/tsqwz1N.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/images/xlBv5aR.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/jplayer.playlist.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/jquery.fileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/jquery.iframe-transport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/jquery.jplayer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/jquery.ui.widget.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/lanrenzhijia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/assets/js/sockjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/constant/CommonConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/constant/JsonResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/constant/JsonResultCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/controller/AdminController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/controller/MusicController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/controller/SearchController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/dao/CollectionDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/dao/CommentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/dao/DownloadDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/dao/MusicDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/entity/CollectionMusic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/entity/Comment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/entity/Download.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/entity/Music.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/entity/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/CollectionService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/CommentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/DownloadService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/MusicService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/impl/CollectionServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/impl/CommentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/impl/DownloadServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/impl/MusicServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/service/impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/com/music/web/vo/CommentInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/mapper/mapper_collection.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/mapper/mapper_comment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/mapper/mapper_download.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/mapper/mapper_music.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/mapper/mapper_user.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/classes/spring-mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479450453727.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479450708077.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479451731245.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479452992966.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479453274888.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479453990775.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479454070247.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479454192891.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479454404654.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479454451208.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479454530885.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479460217106.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479460351876.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479460417759.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479460726186.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479460891512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479460974211.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/1/1479461181288.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/2/1479539015466.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/3/1479477556873.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/4/1479541057917.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/5/1479650299633.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/6/1479651825350.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../target/music-bar/assets/uploadsheadImg/8/1479950914289.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/AlbumServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/AlbumServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/PostingServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/PostingServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/AlbumServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/AlbumServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/PostingServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/PostingServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="music-bar.iws" />
@@ -308,10 +30,35 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="web" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/meta.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/script.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/css.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/PostingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/LabelService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/LabelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/AlbumService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/AlbumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/sidebar.jsp" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -347,7 +94,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -403,26 +150,8 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="music-bar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,11 +173,247 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music-bar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,6 +427,15 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="G:\software\node.js\node.js\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\project\music-web\app\src\main\webapp\WEB-INF\jsp\admin" />
+      <recent name="G:\project\music-web\app\src\main\webapp\WEB-INF\jsp\admin\common" />
+      <recent name="G:\project\music-web\app\src\main\webapp\assets\css" />
+      <recent name="G:\project\music-web\app\src\main\webapp\assets\plugins" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.music">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -479,6 +453,43 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -504,6 +515,157 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -525,12 +687,88 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="music-bar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -561,7 +799,52 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
     <configuration default="false" name="music" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.681" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8084/music/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -574,6 +857,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_music-bar" />
+        <option name="HTTP_PORT" value="8084" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -653,20 +937,33 @@
       <option name="presentableId" value="Default" />
       <updated>1493780103672</updated>
       <workItem from="1493780105066" duration="499000" />
-      <workItem from="1493780626379" duration="666000" />
+      <workItem from="1493780626379" duration="2884000" />
+      <workItem from="1493881881760" duration="29000" />
+      <workItem from="1494334739058" duration="104000" />
+      <workItem from="1494482545553" duration="608000" />
+      <workItem from="1494653812969" duration="22000" />
+      <workItem from="1494926075860" duration="4121000" />
     </task>
+    <task id="LOCAL-00001" summary="新增后台管理模块">
+      <created>1494930100655</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494930100655</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1165000" />
+    <option name="totallyTimeSpent" value="8296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -678,17 +975,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7213333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.248067" sideWeight="0.49466667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5053333" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -709,6 +1006,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增后台管理模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增后台管理模块" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -722,16 +1023,203 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/plugins/AdminLTE/dist/js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/script.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/meta.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/images/300.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1396">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/css.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/post.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/comment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/music.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/PostingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
-            <marker date="1493696428307" expanded="true" signature="622:728" ph="select from albummusic" />
-            <marker date="1493696428307" expanded="true" signature="852:935" ph="select m.* f... albummusic" />
-            <marker date="1493696428307" expanded="true" signature="1041:1142" ph="select from albummusic" />
-            <marker date="1493696428307" expanded="true" signature="1228:1288" ph="delete from " />
-            <marker date="1493696428307" expanded="true" signature="1604:1727" ph="insert into albummusic... " />
-            <marker date="1493696428307" expanded="true" signature="2424:2481" ph="insert into albummusic... " />
-            <marker date="1493696428307" expanded="true" signature="2590:2828" ph="update album... " />
-            <marker date="1493696428307" expanded="true" signature="2928:3058" ph="update album... " />
+            <element signature="e#1527#1528#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/LabelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/LabelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#1474#1475#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="20" />
+          <folding>
+            <element signature="e#1727#1728#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/AlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/label.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/label.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/common/sidebar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/album.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1070">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1640">
+          <caret line="165" column="35" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
