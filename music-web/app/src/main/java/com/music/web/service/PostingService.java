@@ -3,6 +3,8 @@ package com.music.web.service;
 import com.music.web.entity.Posting;
 import com.music.web.vo.PostingVo;
 
+import java.util.List;
+
 /**
  * 帖子相关
  * Created by Administrator on 2017/4/29.
@@ -16,4 +18,7 @@ public interface PostingService {
 
     //获取帖子
     PostingVo selectPosting(int id);
+
+    //获取所有的帖子
+    List<PostingVo> selectPostings();
 }
