@@ -28,6 +28,19 @@
       name = #{filter}
     </if>
   </select>
+  <select id="selectLabelsByPage"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from label
+    <if test="name!=null">
+      <bind name="pattern" value="'%'+_parameter.name+'%'"/>
+      where name like #{pattern}
+    </if>
+    <if test="pageSize!=0">
+      limit #{offset}, #{pageSize}
+    </if>
+  </select>
+
   <select id="selectLabels"  resultMap="BaseResultMap">
     select
     <include refid="Base_Column_List" />

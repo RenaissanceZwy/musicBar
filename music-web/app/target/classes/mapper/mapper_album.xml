@@ -31,6 +31,20 @@
     from album
     where status=1
   </select>
+
+  <select id="selectAlbumsByPage"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from album
+    where status=1
+    <if test="name!=null">
+      <bind name="pattern" value="'%'+_parameter.name+'%'"/>
+      and name like #{pattern}
+    </if>
+    <if test="pageSize!=0">
+      limit #{offset}, #{pageSize}
+    </if>
+  </select>
   <update id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     update album set status=0
     where id = #{id,jdbcType=INTEGER}
