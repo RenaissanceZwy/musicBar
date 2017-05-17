@@ -33,10 +33,10 @@
 										   value="${name}" name="name" maxlength="15">
 									<input id="find" value="查找" type="submit" class="btn btn-primary" />
 								</form>
-								<%--<div class="pull-right">
-									<a href="<%=request.getContextPath()%>/admin/show/addGroup" class="btn btn-success">
-										新建角色</a>
-								</div>--%>
+								<div class="pull-right">
+									<a href="<%=request.getContextPath()%>/admin/label/add" class="btn btn-success">
+										新建标签</a>
+								</div>
 							</div>
 							<div class="box-body">
 								<table id="example1"

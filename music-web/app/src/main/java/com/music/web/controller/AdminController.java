@@ -282,6 +282,22 @@ public class AdminController {
         return new JsonResult(JsonResultCode.SUCCESS,"删除成功","");
     }
 
+    /**
+     * 添加标签页面
+     * @param request
+     * @param model
+     * @param response
+     * @return
+     */
+    @RequestMapping(value = "/label/add")
+    public String addLabel(HttpServletRequest request,Model model,HttpServletResponse response){
+
+        model.addAttribute("page_type","600");
+        return "admin/addLabel";
+    }
+
+
+
     @RequestMapping(value = "/test")
     public String test2(HttpServletRequest request,Model model,HttpServletResponse response,
                         @RequestParam(required = true ,value = "toId") Integer toId){
