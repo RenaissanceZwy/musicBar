@@ -56,12 +56,30 @@
 										<tr>
 											<td>${user.username}</td>
 											<td>${user.email}</td>
-											<td>${user.sex}</td>
-											<td>${user.age}</td>
-											<td>${user.status}</td>
 											<td>
-													<%--<a href="<%=request.getContextPath()%>/admin/show/addGroup?edit=1&id=${group.gid}">编辑</a>--%>
-												<a href="#" class="btn-delete" data-id="${user.id}">删除</a>
+												<c:if test="${user.sex==0}">
+													女
+												</c:if>
+												<c:if test="${user.sex==1}">
+													男
+												</c:if>
+											</td>
+											<td>${user.age}</td>
+											<td>
+												<c:if test="${user.status==1}">
+													正常
+												</c:if>
+												<c:if test="${user.status==0}">
+													禁用
+												</c:if>
+											</td>
+											<td>
+												<c:if test="${user.status==1}">
+													<a href="#" class="btn-delete" data-id="${user.id}">禁用</a>
+												</c:if>
+												<c:if test="${user.status==0}">
+													<a href="#" class="btn-delete" data-id="${user.id}">起用</a>
+												</c:if>
 											</td>
 										</tr>
 									</c:forEach>
@@ -98,7 +116,7 @@
 								</c:if>
 								<c:if test="${paging.totalRecord==0}">
 									<div class="empty-table text-center" style="margin: 20px 0">
-										<img src="<%=request.getContextPath()%>/resources/assets/images/empty.jpg"
+										<img src="<%=request.getContextPath()%>/assets/images/empty.jpg"
 											 height="30" width="30"> <span>记录为空</span>
 									</div>
 								</c:if>
@@ -114,7 +132,18 @@
 	<!-- ./wrapper -->
 	<%@ include file="./common/script.jsp"%>
 	<script>
-
+		$(".btn-delete").click(function () {
+			var id = $(this).attr("data-id");
+			music.modal.confirm("确定要禁用此用户",function () {
+				$.post("<%=request.getContextPath()%>/admin/del",{id:id,type:1},function (data) {
+					if(data.code == "200"){
+						music.modal.alert("禁用成功",window.location.reload());
+					}else if(data.code == "201"){
+						music.modal.alert("禁用失败");
+					}
+				},"json");
+			});
+		});
 
 	</script>
 </body>

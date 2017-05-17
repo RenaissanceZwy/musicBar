@@ -33,3 +33,7 @@
 	src="<%=request.getContextPath()%>/assets/plugins/AdminLTE/dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 
+<script
+		src="<%=request.getContextPath()%>/assets/plugins/jquery-confirm/jquery-confirm.min.js"></script>
+<script
+		src="<%=request.getContextPath()%>/assets/js/common.js"></script>

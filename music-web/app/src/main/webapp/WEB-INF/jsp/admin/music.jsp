@@ -96,7 +96,7 @@
 								</c:if>
 								<c:if test="${paging.totalRecord==0}">
 									<div class="empty-table text-center" style="margin: 20px 0">
-										<img src="<%=request.getContextPath()%>/resources/assets/images/empty.jpg"
+										<img src="<%=request.getContextPath()%>/assets/images/empty.jpg"
 											 height="30" width="30"> <span>记录为空</span>
 									</div>
 								</c:if>

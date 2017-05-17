@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib   prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page session="false" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -55,10 +56,9 @@
 										<tr>
 											<td>${comment.username}</td>
 											<td>${comment.content}</td>
-											<td>${comment.time}</td>
+											<td><fmt:formatDate value="${comment.time}" pattern="yyyy-MM-dd  HH:mm:ss" /></td>
 											<td>${comment.likeNum}</td>
 											<td>
-													<%--<a href="<%=request.getContextPath()%>/admin/show/addGroup?edit=1&id=${group.gid}">编辑</a>--%>
 												<a href="#" class="btn-delete" data-id="${comment.id}">删除</a>
 											</td>
 										</tr>
@@ -96,7 +96,7 @@
 								</c:if>
 								<c:if test="${paging.totalRecord==0}">
 									<div class="empty-table text-center" style="margin: 20px 0">
-										<img src="<%=request.getContextPath()%>/resources/assets/images/empty.jpg"
+										<img src="<%=request.getContextPath()%>/assets/images/empty.jpg"
 											 height="30" width="30"> <span>记录为空</span>
 									</div>
 								</c:if>
@@ -112,6 +112,18 @@
 	<!-- ./wrapper -->
 	<%@ include file="./common/script.jsp"%>
 	<script>
+		$(".btn-delete").click(function () {
+			var id = $(this).attr("data-id");
+			music.modal.confirm("确定要删除此评论",function () {
+				$.post("<%=request.getContextPath()%>/admin/del",{id:id,type:2},function (data) {
+					if(data.code == "200"){
+						music.modal.alert("删除成功",window.location.reload());
+					}else if(data.code == "201"){
+						music.modal.alert("删除失败");
+					}
+				},"json");
+			});
+		});
 
 
 	</script>

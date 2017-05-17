@@ -1,5 +1,7 @@
 package com.music.web.controller;
 
+import com.music.web.constant.JsonResult;
+import com.music.web.constant.JsonResultCode;
 import com.music.web.entity.Album;
 import com.music.web.entity.Label;
 import com.music.web.entity.User;
@@ -13,6 +15,7 @@ import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -239,6 +242,45 @@ public class AdminController {
         return "admin/label";
     }
 
+    /**
+     * 进行删除操作
+     * @param request
+     * @param model
+     * @param response
+     * type 1-用户 2-评论 3-帖子 4-音乐 5-专辑 6-标签
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "/del")
+    public JsonResult delete(HttpServletRequest request, Model model, HttpServletResponse response,
+                             @RequestParam(required = true ,value = "id") Integer id,
+                             @RequestParam(required = true ,value = "type") Integer type){
+        boolean result = true;
+        switch (type){
+            case 1:
+                result = userService.modifyUserSatsu(Long.valueOf(id),0);
+                break;
+            case 2:
+                result = commentService.deleteComment(Long.valueOf(id));
+                break;
+            case 3:
+                result = postingService.deletePosting(id);
+                break;
+            case 4:
+                break;
+            case 5:
+                result = albumService.deleteAlbum(id);
+                break;
+            case 6:
+                result = labelService.deletLabelById(id);
+                break;
+        }
+
+        if(!result){
+            return new JsonResult(JsonResultCode.FAILURE,"删除失败","");
+        }
+        return new JsonResult(JsonResultCode.SUCCESS,"删除成功","");
+    }
 
     @RequestMapping(value = "/test")
     public String test2(HttpServletRequest request,Model model,HttpServletResponse response,

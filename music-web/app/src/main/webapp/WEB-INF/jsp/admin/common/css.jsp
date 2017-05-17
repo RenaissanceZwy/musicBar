@@ -25,3 +25,5 @@
     <![endif]-->
 	<link rel="stylesheet"
 	  href="<%=request.getContextPath()%>/assets/css/common.css">
+	<link rel="stylesheet"
+	  href="<%=request.getContextPath()%>/assets/plugins/jquery-confirm/jquery-confirm.min.css">
