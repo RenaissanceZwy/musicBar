@@ -20,6 +20,9 @@ public interface CommentDao {
 
     public List<CommentInfo> selectComments();
 
+    public List<CommentInfo> selectCommentsByPage(@Param("offset") int offset,@Param("pageSize") int pageSize,
+                                            @Param("name") String name);
+
     /*  通过评论id 选择评论*/
     public CommentInfo selectCommentById(@Param("id") Long id);
 

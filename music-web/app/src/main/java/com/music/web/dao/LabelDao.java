@@ -23,4 +23,7 @@ public interface LabelDao {
     Label selectLabelByType(@Param("filter") String filter,@Param("type") int type);
 
     List<Label> selectLabels();
+
+    List<Label> selectLabelsByPage(@Param("offset") int offset,@Param("pageSize") int pageSize
+            ,@Param("name") String name);
 }

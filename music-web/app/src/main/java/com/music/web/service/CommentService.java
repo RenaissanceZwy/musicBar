@@ -19,6 +19,8 @@ public interface CommentService {
     /*获取所有的评论信息*/
     public List<CommentInfo> getComments();
 
+    public List<CommentInfo> getComments(int pageNum,int PageSize,String name);
+
     /*  通过评论id 选择评论*/
     public CommentInfo getCommentById( Long id);
 

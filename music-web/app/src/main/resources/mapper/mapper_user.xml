@@ -14,7 +14,18 @@
 	</resultMap>
 
 	<select id="selectAllUsers" resultMap="usersMap">
-		select * from user
+		select * from user where status=1
+	</select>
+
+	<select id="selectAllUsersByPage" resultMap="usersMap">
+		select * from user where status=1
+		<if test="name!=null">
+			<bind name="pattern" value="'%'+_parameter.name+'%'"/>
+			 and username like #{pattern}
+		</if>
+		<if test="pageSize!=0">
+			limit #{offset}, #{pageSize}
+		</if>
 	</select>
 
 	<select id="selectUserById" resultMap="usersMap">
@@ -22,7 +33,7 @@
 	</select>
 
 	<select id="selectCountOfName" resultType="int">
-		select count(*) from user where  username = #{username}
+		select count(*) from user where  username = #{username} and status=1
 	</select>
 
 	<select id="selectUserByUser" resultMap="usersMap">

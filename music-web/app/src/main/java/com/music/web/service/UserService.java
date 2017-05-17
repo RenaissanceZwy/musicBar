@@ -12,6 +12,8 @@ public interface UserService {
     //获取所有的用户
     public List<User> getAllUsers();
 
+    public List<User> getAllUsers(int pageNum,int pageSize,String name);
+
     /*获取用户名的个数*/
     public int getCountOfName( String username);
 

@@ -4,11 +4,13 @@ import com.music.web.entity.Album;
 import com.music.web.entity.Label;
 import com.music.web.entity.User;
 import com.music.web.service.*;
+import com.music.web.util.PageUtil;
 import com.music.web.vo.CommentInfo;
 import com.music.web.vo.PostingVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -69,10 +71,23 @@ public class AdminController {
      */
     @RequestMapping(value = "/user")
     public String adminUser(HttpServletRequest request,Model model,HttpServletResponse response){
+        //获取用户名称
+        String name = request.getParameter("name");
+        //获取分页的页码
+        String pageNumStr = request.getParameter("monitorPageNum");
+        int pageNum = StringUtils.isEmpty(pageNumStr)?0:Integer.valueOf(pageNumStr);
+        //获取分页的大小
+        String pageSizeStr = request.getParameter("pageSize");
+        int pageSize = StringUtils.isEmpty(pageSizeStr)?15:Integer.valueOf(pageSizeStr);
 
         /*获取所有的用户*/
-        List<User> users = userService.getAllUsers();
-        model.addAttribute("users",users);
+        int totalNum = userService.getAllUsers(pageNum,0,name).size();
+
+        List<User> users = userService.getAllUsers(pageNum,pageSize,name);
+        PageUtil monitor_paging_vo = new PageUtil(pageSize,totalNum,pageNum);
+        monitor_paging_vo.setObject(users);
+
+        model.addAttribute("paging",monitor_paging_vo);
         model.addAttribute("page_type","100");
 
         return "admin/user";
@@ -87,10 +102,22 @@ public class AdminController {
      */
     @RequestMapping(value = "/comment")
     public String adminComment(HttpServletRequest request,Model model,HttpServletResponse response){
+        //获取用户名称
+        String name = request.getParameter("name");
+        //获取分页的页码
+        String pageNumStr = request.getParameter("monitorPageNum");
+        int pageNum = StringUtils.isEmpty(pageNumStr)?0:Integer.valueOf(pageNumStr);
+        //获取分页的大小
+        String pageSizeStr = request.getParameter("pageSize");
+        int pageSize = StringUtils.isEmpty(pageSizeStr)?15:Integer.valueOf(pageSizeStr);
+         /*获取所有的评论*/
+        int totalNum = commentService.getComments(pageNum,0,name).size();
 
-        /*获取所有的评论*/
-        List<CommentInfo> commentInfos = commentService.getComments();
-        model.addAttribute("commentInfos",commentInfos);
+        List<CommentInfo> commentInfos = commentService.getComments(pageNum,pageSize,name);
+        PageUtil monitor_paging_vo = new PageUtil(pageSize,totalNum,pageNum);
+        monitor_paging_vo.setObject(commentInfos);
+
+        model.addAttribute("paging",monitor_paging_vo);
         model.addAttribute("page_type","200");
 
 
@@ -108,9 +135,22 @@ public class AdminController {
     @RequestMapping(value = "/post")
     public String adminPost(HttpServletRequest request,Model model,HttpServletResponse response){
 
-        /*获取所有的评论*/
-        List<PostingVo> postings = postingService.selectPostings();
-        model.addAttribute("postings",postings);
+        //获取用户名称
+        String name = request.getParameter("name");
+        //获取分页的页码
+        String pageNumStr = request.getParameter("monitorPageNum");
+        int pageNum = StringUtils.isEmpty(pageNumStr)?0:Integer.valueOf(pageNumStr);
+        //获取分页的大小
+        String pageSizeStr = request.getParameter("pageSize");
+        int pageSize = StringUtils.isEmpty(pageSizeStr)?15:Integer.valueOf(pageSizeStr);
+         /*获取所有的帖子*/
+        int totalNum = postingService.selectPostings(pageNum,0,name).size();
+
+        List<PostingVo> postingVos = postingService.selectPostings(pageNum,pageSize,name);
+        PageUtil monitor_paging_vo = new PageUtil(pageSize,totalNum,pageNum);
+        monitor_paging_vo.setObject(postingVos);
+
+        model.addAttribute("paging",monitor_paging_vo);
         model.addAttribute("page_type","300");
 
 
@@ -145,10 +185,22 @@ public class AdminController {
      */
     @RequestMapping(value = "/album")
     public String adminAlbum(HttpServletRequest request,Model model,HttpServletResponse response){
+        //获取专辑名称
+        String name = request.getParameter("name");
+        //获取分页的页码
+        String pageNumStr = request.getParameter("monitorPageNum");
+        int pageNum = StringUtils.isEmpty(pageNumStr)?0:Integer.valueOf(pageNumStr);
+        //获取分页的大小
+        String pageSizeStr = request.getParameter("pageSize");
+        int pageSize = StringUtils.isEmpty(pageSizeStr)?15:Integer.valueOf(pageSizeStr);
+         /*获取所有的帖子*/
+        int totalNum = albumService.selectAllAlbums(pageNum,0,name).size();
 
-        /*获取所有的评论*/
-        List<Album> albums= albumService.selectAllAlbums();
-        model.addAttribute("albums",albums);
+        List<Album> albumList = albumService.selectAllAlbums(pageNum,pageSize,name);
+        PageUtil monitor_paging_vo = new PageUtil(pageSize,totalNum,pageNum);
+        monitor_paging_vo.setObject(albumList);
+
+        model.addAttribute("paging",monitor_paging_vo);
         model.addAttribute("page_type","500");
 
 
@@ -165,10 +217,22 @@ public class AdminController {
      */
     @RequestMapping(value = "/label")
     public String adminLabel(HttpServletRequest request,Model model,HttpServletResponse response){
+        //获取标签名称
+        String name = request.getParameter("name");
+        //获取分页的页码
+        String pageNumStr = request.getParameter("monitorPageNum");
+        int pageNum = StringUtils.isEmpty(pageNumStr)?0:Integer.valueOf(pageNumStr);
+        //获取分页的大小
+        String pageSizeStr = request.getParameter("pageSize");
+        int pageSize = StringUtils.isEmpty(pageSizeStr)?15:Integer.valueOf(pageSizeStr);
+         /*获取所有的标签*/
+        int totalNum = labelService.selectLabels().size();
 
-        /*获取所有的评论*/
-        List<Label> labels = labelService.selectLabels();
-        model.addAttribute("labels",labels);
+        List<Label> labels = labelService.selectLabels(pageNum,pageSize,name);
+        PageUtil monitor_paging_vo = new PageUtil(pageSize,totalNum,pageNum);
+        monitor_paging_vo.setObject(labels);
+
+        model.addAttribute("paging",monitor_paging_vo);
         model.addAttribute("page_type","600");
 
 

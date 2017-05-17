@@ -52,6 +52,17 @@ public class CommentServiceImpl implements CommentService {
         return commentInfos;
     }
 
+    public List<CommentInfo> getComments(int pageNum, int pageSize, String name) {
+        List<CommentInfo> commentInfos = null;
+        try{
+            int offset = pageNum>0?(pageNum-1)*pageSize:0;
+            commentInfos = commentDao.selectCommentsByPage(offset,pageSize,name);
+        }catch (Exception e){
+            logger.error("[CommentServiceImpl][getComments]"+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
+        }
+        return commentInfos;
+    }
+
     public CommentInfo getCommentById(Long id) {
        CommentInfo commentInfo = null;
         try{

@@ -31,6 +31,17 @@ public class UserServiceImpl  implements UserService{
         return  users;
     }
 
+    public List<User> getAllUsers(int pageNum, int pageSize, String name) {
+        List<User> users = null;
+        try{
+            int offset = pageNum>1?(pageNum-1)*pageSize:0;
+            users = userDao.selectAllUsersByPage(offset,pageSize,name);
+        }catch (Exception e){
+            logger.error("[UserServiceImpl][getAllUsers]"+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
+        }
+        return  users;
+    }
+
     public int getCountOfName(String username) {
         int result = 0;
         try{

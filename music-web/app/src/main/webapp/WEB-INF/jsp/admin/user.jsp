@@ -18,7 +18,7 @@
 			<section class="content-header">
 				<h1>用户管理</h1>
 				<ol class="breadcrumb">
-					<li><a href="<%=request.getContextPath()%>/admin/group?monitorPageNum=0&pageSize=15">用户管理</a></li>
+					<li><a href="<%=request.getContextPath()%>/admin/user?monitorPageNum=0&pageSize=15">用户管理</a></li>
 				</ol>
 			</section>
 			<section class="content">
@@ -27,7 +27,7 @@
 						<div class="box">
 							<div class="box-header">
 								<form
-										action="<%=request.getContextPath()%>/admin/group?monitorPageNum=0&pageSize=15"
+										action="<%=request.getContextPath()%>/admin/user?monitorPageNum=0&pageSize=15"
 										class="form-inline bottom-10" method="post" style="float: left">
 									<input type="text" class="form-control" placeholder="请输入用户名"
 										   value="${name}" name="name" maxlength="15">
@@ -52,7 +52,7 @@
 									</tr>
 									</thead>
 									<tbody>
-									<c:forEach items="${users}" var="user">
+									<c:forEach items="${paging.object}" var="user">
 										<tr>
 											<td>${user.username}</td>
 											<td>${user.email}</td>

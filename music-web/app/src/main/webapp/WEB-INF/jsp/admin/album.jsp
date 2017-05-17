@@ -27,7 +27,7 @@
 						<div class="box">
 							<div class="box-header">
 								<form
-										action="<%=request.getContextPath()%>/admin/group?monitorPageNum=0&pageSize=15"
+										action="<%=request.getContextPath()%>/admin/album?monitorPageNum=0&pageSize=15"
 										class="form-inline bottom-10" method="post" style="float: left">
 									<input type="text" class="form-control" placeholder="请输入专辑名"
 										   value="${name}" name="name" maxlength="15">
@@ -52,7 +52,7 @@
 									</tr>
 									</thead>
 									<tbody>
-									<c:forEach items="${albums}" var="album">
+									<c:forEach items="${paging.object}" var="album">
 										<tr>
 											<td>${album.name}</td>
 											<td>${album.describes}</td>

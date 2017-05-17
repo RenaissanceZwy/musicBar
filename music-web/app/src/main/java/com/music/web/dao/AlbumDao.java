@@ -1,6 +1,7 @@
 package com.music.web.dao;
 
 import com.music.web.entity.Album;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -24,4 +25,7 @@ public interface AlbumDao {
 
     //获取所有的歌单
     List<Album> selectAlbums();
+    //获取所有的歌单
+    List<Album> selectAlbumsByPage(@Param("offset") int offset, @Param("pageSize") int pageSize,
+                                   @Param("name") String name);
 }

@@ -61,4 +61,15 @@ public class PostingServiceImpl implements PostingService {
         }
         return result;
     }
+
+    public List<PostingVo> selectPostings(int pageNum, int pageSize, String name) {
+        List<PostingVo> result = null;
+        try{
+            int offset = pageNum>1?(pageNum-1)*pageSize:0;
+            result = postingDao.selectPostingsByPage(offset,pageSize,name);
+        }catch (Exception e){
+            logger.info("[PostingServiceImpl][selectPostings]id:"+e);
+        }
+        return result;
+    }
 }

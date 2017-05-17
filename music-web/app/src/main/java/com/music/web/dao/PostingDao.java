@@ -2,6 +2,7 @@ package com.music.web.dao;
 
 import com.music.web.entity.Posting;
 import com.music.web.vo.PostingVo;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -23,4 +24,7 @@ public interface PostingDao {
     PostingVo selectPostingById(int id);
 
     List<PostingVo> selectPostings();
+
+    List<PostingVo> selectPostingsByPage(@Param("offset") int offset, @Param("pageSize") int pageSize,
+                                         @Param("name") String name);
 }

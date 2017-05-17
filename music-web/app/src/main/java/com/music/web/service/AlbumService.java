@@ -22,4 +22,7 @@ public interface AlbumService {
     boolean deleteAlbum(int aid);
 
     List<Album> selectAllAlbums();
+
+    //分页
+    List<Album> selectAllAlbums(int pageNum,int pageSize,String name);
 }

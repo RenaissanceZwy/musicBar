@@ -15,6 +15,8 @@ public interface UserDao {
     /*获取所有的用户*/
     public List<User> selectAllUsers();
 
+    public List<User> selectAllUsersByPage(@Param("offset") int offset,@Param("pageSize") int pageSize,@Param("name") String name);
+
     /*获取用户名的个数*/
     public int selectCountOfName(@Param("username") String username);
 

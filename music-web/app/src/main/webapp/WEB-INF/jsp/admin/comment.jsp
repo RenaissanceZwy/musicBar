@@ -51,7 +51,7 @@
 									</tr>
 									</thead>
 									<tbody>
-									<c:forEach items="${commentInfos}" var="comment">
+									<c:forEach items="${paging.object}" var="comment">
 										<tr>
 											<td>${comment.username}</td>
 											<td>${comment.content}</td>

@@ -70,4 +70,15 @@ public class AlbumServiceImpl implements AlbumService {
         }
         return result;
     }
+
+    public List<Album> selectAllAlbums(int pageNum, int pageSize, String name) {
+        List<Album> result = null;
+        try{
+            int offset = pageNum>0?(pageNum-1)*pageSize:0;
+            result = albumDao.selectAlbumsByPage(offset,pageSize,name);
+        }catch (Exception e){
+            logger.info("[AlbumServiceImpl][selectAllAlbums] aid:"+e);
+        }
+        return result;
+    }
 }

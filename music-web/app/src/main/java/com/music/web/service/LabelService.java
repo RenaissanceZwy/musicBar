@@ -17,4 +17,6 @@ public interface LabelService {
     Label selectLabel(String filter,int type);
     //获取所有的标签
     List<Label> selectLabels();
+    //获取所有的标签
+    List<Label> selectLabels(int pageNum,int pageSize,String name);
 }

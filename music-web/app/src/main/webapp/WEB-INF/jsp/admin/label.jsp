@@ -27,7 +27,7 @@
 						<div class="box">
 							<div class="box-header">
 								<form
-										action="<%=request.getContextPath()%>/admin/group?monitorPageNum=0&pageSize=15"
+										action="<%=request.getContextPath()%>/admin/label?monitorPageNum=0&pageSize=15"
 										class="form-inline bottom-10" method="post" style="float: left">
 									<input type="text" class="form-control" placeholder="请输入标签名"
 										   value="${name}" name="name" maxlength="15">
@@ -50,7 +50,7 @@
 									</tr>
 									</thead>
 									<tbody>
-									<c:forEach items="${labels}" var="label">
+									<c:forEach items="${paging.object}" var="label">
 										<tr>
 											<td>${label.name}</td>
 											<td>${label.describes}</td>

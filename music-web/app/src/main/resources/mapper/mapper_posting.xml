@@ -23,7 +23,20 @@
     select
     p.*,u.username
     from posting p,user u
-    where p.uid=u.id
+    where p.uid=u.id and p.status=1
+  </select>
+  <select id="selectPostingsByPage"  resultType="com.music.web.vo.PostingVo">
+    select
+    p.*,u.username
+    from posting p,user u
+    where p.uid=u.id and p.status=1
+    <if test="name!=null">
+      <bind name="pattern" value="'%'+_parameter.name+'%'"/>
+      and u.username like #{pattern}
+    </if>
+    <if test="pageSize!=0">
+      limit #{offset}, #{pageSize}
+    </if>
   </select>
   <select id="selectPostingById" parameterType="java.lang.Integer" resultType="com.music.web.vo.PostingVo">
     select

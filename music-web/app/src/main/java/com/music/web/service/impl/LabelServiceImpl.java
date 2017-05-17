@@ -61,4 +61,15 @@ public class LabelServiceImpl implements LabelService {
         }
         return result;
     }
+
+    public List<Label> selectLabels(int pageNum, int pageSize, String name) {
+        List<Label> result = null;
+        try{
+            int offset = pageNum>0?(pageNum-1)*pageSize:0;
+            result = labelDao.selectLabelsByPage(offset,pageSize,name);
+        }catch (Exception e){
+            logger.info("[LabelServiceImpl][selectLabels] filter:"+e);
+        }
+        return result;
+    }
 }
