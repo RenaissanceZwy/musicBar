@@ -25,6 +25,12 @@
     from album
     where name = #{name} and status=1
   </select>
+  <select id="selectAlbums"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from album
+    where status=1
+  </select>
   <update id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     update album set status=0
     where id = #{id,jdbcType=INTEGER}

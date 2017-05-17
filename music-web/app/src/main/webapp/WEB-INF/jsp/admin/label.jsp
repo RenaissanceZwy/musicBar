@@ -16,11 +16,9 @@
 		<div class="content-wrapper">
 			<!-- Content Header (Page header) -->
 			<section class="content-header">
-				<h1>管理员管理</h1>
+				<h1>标签管理</h1>
 				<ol class="breadcrumb">
-					<li><a href="<%=request.getContextPath()%>/"><i class="fa fa-dashboard"></i> 首页</a></li>
-					<li><a href="<%=request.getContextPath()%>/admin/group?monitorPageNum=0&pageSize=15">用户管理</a></li>
-					<li class="active">管理员管理</li>
+					<li class="active">标签管理</li>
 				</ol>
 			</section>
 			<section class="content">
@@ -31,7 +29,7 @@
 								<form
 										action="<%=request.getContextPath()%>/admin/group?monitorPageNum=0&pageSize=15"
 										class="form-inline bottom-10" method="post" style="float: left">
-									<input type="text" class="form-control" placeholder="请输入用户名"
+									<input type="text" class="form-control" placeholder="请输入标签名"
 										   value="${name}" name="name" maxlength="15">
 									<input id="find" value="查找" type="submit" class="btn btn-primary" />
 								</form>
@@ -45,23 +43,21 @@
 									   class="table table-hover table-striped table-bordered">
 									<thead>
 									<tr>
-										<th>用户名</th>
-										<th>电子邮箱</th>
-										<th>性别</th>
-										<th>年龄</th>
-										<th>状态</th>
+										<th>标签名</th>
+										<th>标签描述</th>
+										<th>标签类型</th>
 										<th>操作</th>
 									</tr>
 									</thead>
 									<tbody>
-									<c:forEach items="${groups}" var="group">
+									<c:forEach items="${labels}" var="label">
 										<tr>
-											<td>${group.roleName}</td>
-											<td>${group.account}</td>
-											<td>${group.rights}</td>
+											<td>${label.name}</td>
+											<td>${label.describes}</td>
+											<td>${label.type}</td>
 											<td>
 													<%--<a href="<%=request.getContextPath()%>/admin/show/addGroup?edit=1&id=${group.gid}">编辑</a>--%>
-												<a href="#" class="btn-delete" data-id="${group.gid}">删除</a>
+												<a href="#" class="btn-delete" data-id="${label.id}">删除</a>
 											</td>
 										</tr>
 									</c:forEach>

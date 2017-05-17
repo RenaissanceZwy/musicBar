@@ -4,6 +4,8 @@ import com.music.web.entity.Posting;
 import com.music.web.vo.PostingVo;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface PostingDao {
     int deleteByPrimaryKey(Integer id);
@@ -19,4 +21,6 @@ public interface PostingDao {
     int updateByPrimaryKey(Posting record);
 
     PostingVo selectPostingById(int id);
+
+    List<PostingVo> selectPostings();
 }

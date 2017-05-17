@@ -40,4 +40,14 @@ public class Label {
     public void setDescribes(String describes) {
         this.describes = describes == null ? null : describes.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Label{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", type=" + type +
+                ", describes='" + describes + '\'' +
+                '}';
+    }
 }

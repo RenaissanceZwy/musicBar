@@ -16,11 +16,9 @@
 		<div class="content-wrapper">
 			<!-- Content Header (Page header) -->
 			<section class="content-header">
-				<h1>管理员管理</h1>
+				<h1>帖子管理</h1>
 				<ol class="breadcrumb">
-					<li><a href="<%=request.getContextPath()%>/"><i class="fa fa-dashboard"></i> 首页</a></li>
-					<li><a href="<%=request.getContextPath()%>/admin/group?monitorPageNum=0&pageSize=15">用户管理</a></li>
-					<li class="active">管理员管理</li>
+					<li class="active">帖子管理</li>
 				</ol>
 			</section>
 			<section class="content">
@@ -40,28 +38,30 @@
 										新建角色</a>
 								</div>--%>
 							</div>
-							<div class="box-body">${postings}
+							<div class="box-body">
 								<table id="example1"
 									   class="table table-hover table-striped table-bordered">
 									<thead>
 									<tr>
 										<th>用户名</th>
-										<th>电子邮箱</th>
-										<th>性别</th>
-										<th>年龄</th>
+										<th>标题</th>
+										<th>内容</th>
+										<th>时间</th>
 										<th>状态</th>
 										<th>操作</th>
 									</tr>
 									</thead>
 									<tbody>
-									<c:forEach items="${groups}" var="group">
+									<c:forEach items="${postings}" var="posting">
 										<tr>
-											<td>${group.roleName}</td>
-											<td>${group.account}</td>
-											<td>${group.rights}</td>
+											<td>${posting.username}</td>
+											<td>${posting.title}</td>
+											<td>${posting.content}</td>
+											<td>${posting.createtime}</td>
+											<td>${posting.createtime}</td>
 											<td>
 													<%--<a href="<%=request.getContextPath()%>/admin/show/addGroup?edit=1&id=${group.gid}">编辑</a>--%>
-												<a href="#" class="btn-delete" data-id="${group.gid}">删除</a>
+												<a href="#" class="btn-delete" data-id="${posting.id}">删除</a>
 											</td>
 										</tr>
 									</c:forEach>

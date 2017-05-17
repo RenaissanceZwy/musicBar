@@ -16,11 +16,9 @@
 		<div class="content-wrapper">
 			<!-- Content Header (Page header) -->
 			<section class="content-header">
-				<h1>管理员管理</h1>
+				<h1>音乐管理</h1>
 				<ol class="breadcrumb">
-					<li><a href="<%=request.getContextPath()%>/"><i class="fa fa-dashboard"></i> 首页</a></li>
-					<li><a href="<%=request.getContextPath()%>/admin/group?monitorPageNum=0&pageSize=15">用户管理</a></li>
-					<li class="active">管理员管理</li>
+					<li class="active">音乐管理</li>
 				</ol>
 			</section>
 			<section class="content">

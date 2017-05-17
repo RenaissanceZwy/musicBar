@@ -62,6 +62,12 @@ public class AlbumServiceImpl implements AlbumService {
     }
 
     public List<Album> selectAllAlbums() {
-        return null;
+        List<Album> result = null;
+        try{
+            result = albumDao.selectAlbums();
+        }catch (Exception e){
+            logger.info("[AlbumServiceImpl][selectAllAlbums] aid:"+e);
+        }
+        return result;
     }
 }

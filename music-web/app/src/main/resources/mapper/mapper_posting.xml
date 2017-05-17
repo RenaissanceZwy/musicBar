@@ -19,6 +19,12 @@
     from posting
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectPostings"  resultType="com.music.web.vo.PostingVo">
+    select
+    p.*,u.username
+    from posting p,user u
+    where p.uid=u.id
+  </select>
   <select id="selectPostingById" parameterType="java.lang.Integer" resultType="com.music.web.vo.PostingVo">
     select
     p.*,u.username

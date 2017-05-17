@@ -3,6 +3,8 @@ package com.music.web.dao;
 import com.music.web.entity.Album;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface AlbumDao {
     int deleteByPrimaryKey(Integer id);
@@ -19,4 +21,7 @@ public interface AlbumDao {
 
     //通过名称获取歌单
     Album selectByName(String name);
+
+    //获取所有的歌单
+    List<Album> selectAlbums();
 }

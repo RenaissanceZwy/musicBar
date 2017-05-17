@@ -28,6 +28,11 @@
       name = #{filter}
     </if>
   </select>
+  <select id="selectLabels"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from label
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from label
     where id = #{id,jdbcType=INTEGER}

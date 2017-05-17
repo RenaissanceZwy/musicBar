@@ -4,6 +4,8 @@ import com.music.web.entity.Label;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface LabelDao {
     int deleteByPrimaryKey(Integer id);
@@ -19,4 +21,6 @@ public interface LabelDao {
     int updateByPrimaryKey(Label record);
 
     Label selectLabelByType(@Param("filter") String filter,@Param("type") int type);
+
+    List<Label> selectLabels();
 }

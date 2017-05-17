@@ -20,8 +20,18 @@ public class PostingVo {
 
     private Date createtime;
 
+    private int status;
+
     //用户名
     private String username;
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
 
     public Integer getId() {
         return id;
@@ -88,6 +98,7 @@ public class PostingVo {
                 ", content='" + content + '\'' +
                 ", label='" + label + '\'' +
                 ", createtime=" + createtime +
+                ", status=" + status +
                 ", username='" + username + '\'' +
                 '}';
     }

@@ -53,6 +53,12 @@ public class LabelServiceImpl implements LabelService {
     }
 
     public List<Label> selectLabels() {
-        return null;
+        List<Label> result = null;
+        try{
+            result = labelDao.selectLabels();
+        }catch (Exception e){
+            logger.info("[LabelServiceImpl][selectLabels] filter:"+e);
+        }
+        return result;
     }
 }
