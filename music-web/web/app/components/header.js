@@ -31,8 +31,12 @@ var TopBar = React.createClass({
                                     <Menu.Item key="2">
                                         <Link to="musicInfo">排行榜</Link>
                                     </Menu.Item>
-                                    <Menu.Item key="3">歌手</Menu.Item>
-                                    <Menu.Item key="4">歌单</Menu.Item>
+                                    <Menu.Item key="3">
+                                        <Link to="search">歌手</Link>
+                                    </Menu.Item>
+                                    <Menu.Item key="4">
+                                        <Link to="signIn">歌单</Link>
+                                    </Menu.Item>
                                     <Menu.Item key="5">
                                         <Link to="circle">音乐圈</Link>
                                     </Menu.Item>

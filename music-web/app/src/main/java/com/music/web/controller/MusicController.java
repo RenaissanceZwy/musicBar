@@ -227,5 +227,44 @@ public class MusicController {
     }
 
 
+    /*获取某首歌的信息*/
+    @ResponseBody
+    @RequestMapping(value = "/info" ,method = {RequestMethod.GET, RequestMethod.POST})
+    public Object musicInfo(HttpServletRequest request, HttpServletResponse response){
+         /*用户的信息*/
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
+        /*获取歌曲id*/
+        String songId = request.getParameter("id");
+        /*判断是否存在已经存储该歌曲信息*/
+        Music music = null;
+        music = musicService.selectMusicBySongId(songId);
+        if(music == null){
+            /* 获取歌曲的信息*/
+            String url = CommonConstants.SONG_INFO_URL+"?id="+songId+"&ids=%5B"+songId+"%5D";
+            String result = PureNetUtil.get(url);
+            JSONObject obj = JSONObject.parseObject(result);
+
+           /* 封装vo*/
+            JSONArray array =obj.getJSONArray("songs");
+            JSONObject songObj = array.getJSONObject(0);
+            //获取专辑封面
+            String picUrl = songObj.getJSONObject("album").getString("picUrl");
+            //获取歌手名称
+            String singer = songObj.getJSONObject("album").getJSONArray("artists").getJSONObject(0).getString("name");
+            //获取专辑名称
+            String albumName = songObj.getJSONObject("album").getString("name");
+            //获取歌曲名称
+            String songName = songObj.getString("name");
+
+            music = new Music(songName,singer,albumName,songId.toString(),picUrl,1);
+            musicService.insertMusic(music);
+        }else{
+            musicService.updateMusicPlayNum(music.getPlayNum()+1,songId);
+        }
+
+        return new JsonResult(JsonResultCode.SUCCESS,"歌曲信息获取成功",music);
+    }
+
+
 
 }

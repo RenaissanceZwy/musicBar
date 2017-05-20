@@ -12,6 +12,8 @@ import Favorite from './container/favortite.js';
 import MusicCircle from './container/musicCircle.js';
 import About from './container/about.js';
 import MusicInfo from './container/musicInfo.js';
+import Search from './container/search.js';
+import SignIn from './container/signin.js';
 
 import 'antd/dist/antd.css';
 
@@ -26,6 +28,8 @@ ReactDom.render((
             <Route path="circle" component={MusicCircle}></Route>
             <Route path="about" component={About}></Route>
             <Route path="musicInfo" component={MusicInfo}></Route>
+            <Route path="search" component={Search}></Route>
+            <Route path="signIn" component={SignIn}></Route>
         </Route>
     </Router>
 ),document.getElementById('text')); 

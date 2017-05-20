@@ -98,4 +98,17 @@ public class AlbumController {
         Album album = albumService.selectAlbumInfo(request.getParameter("name"));
         return new JsonResult("200","歌单信息获取成功",album);
     }
+
+
+    /**
+     * 获取一个专辑的信息
+     * @param request
+     * @param model
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "info")
+    public JsonResult albumInfo(HttpServletRequest request,Model model){
+        return new JsonResult("200","歌单信息获取成功","");
+    }
 }
