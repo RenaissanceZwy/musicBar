@@ -55,7 +55,17 @@ public class PostingServiceImpl implements PostingService {
     public List<PostingVo> selectPostings() {
         List<PostingVo> result = null;
         try{
-            result = postingDao.selectPostings();
+            result = postingDao.selectPostings(0);
+        }catch (Exception e){
+            logger.info("[PostingServiceImpl][selectPostings]id:"+e);
+        }
+        return result;
+    }
+
+    public List<PostingVo> selectPostings(int uid) {
+        List<PostingVo> result = null;
+        try{
+            result = postingDao.selectPostings(uid);
         }catch (Exception e){
             logger.info("[PostingServiceImpl][selectPostings]id:"+e);
         }

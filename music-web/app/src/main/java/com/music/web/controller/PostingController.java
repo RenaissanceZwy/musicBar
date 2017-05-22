@@ -102,8 +102,24 @@ public class PostingController {
     @ResponseBody
     @RequestMapping(value = "all")
     public JsonResult allPosting(HttpServletRequest request,Model model){
-
         List<PostingVo> vo = postingService.selectPostings();
+        return new JsonResult("200","获取帖子成功",vo);
+    }
+
+    /**
+     * 获取用户所有的帖子
+     * @param request
+     * @param model
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "user")
+    public JsonResult allUserPosting(HttpServletRequest request,Model model){
+        String uid = request.getParameter("uid");
+        if(StringUtils.isEmpty(uid)){
+            return new JsonResult("201","参数获取失败","");
+        }
+        List<PostingVo> vo = postingService.selectPostings(Integer.valueOf(uid));
         return new JsonResult("200","获取帖子成功",vo);
     }
 

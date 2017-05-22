@@ -23,7 +23,7 @@ public interface PostingDao {
 
     PostingVo selectPostingById(int id);
 
-    List<PostingVo> selectPostings();
+    List<PostingVo> selectPostings(@Param("uid") int uid);
 
     List<PostingVo> selectPostingsByPage(@Param("offset") int offset, @Param("pageSize") int pageSize,
                                          @Param("name") String name);

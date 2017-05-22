@@ -9,6 +9,7 @@ import userPng from '../img/user.png';
 import {Router,Route,IndexRoute,Link,hashHistory } from 'react-router';
 
 var TopBar = React.createClass({
+    
     render : function () {
         return (
             <div>
@@ -29,7 +30,7 @@ var TopBar = React.createClass({
                                         <Link to="/">首页</Link>
                                     </Menu.Item>
                                     <Menu.Item key="2">
-                                        <Link to="musicInfo">排行榜</Link>
+                                        <Link to="musicInfo/464192841">排行榜</Link>
                                     </Menu.Item>
                                     <Menu.Item key="3">
                                         <Link to="search">歌手</Link>

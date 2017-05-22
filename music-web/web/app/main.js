@@ -14,20 +14,22 @@ import About from './container/about.js';
 import MusicInfo from './container/musicInfo.js';
 import Search from './container/search.js';
 import SignIn from './container/signin.js';
+import UserPost from './container/userPost.js';
 
 import 'antd/dist/antd.css';
 
 ReactDom.render((
     <Router history={hashHistory}>
         <Route path="/" component={Index}>
-            <IndexRoute component={Home} /> 
+            <IndexRoute component={Home} />
             <Route path="user" component={UserInfo}>
                 <IndexRoute component={Collection} />
                 <Route path="favorite" component={Favorite} />
+                <Route path="post" component={UserPost} />
             </Route>
             <Route path="circle" component={MusicCircle}></Route>
             <Route path="about" component={About}></Route>
-            <Route path="musicInfo" component={MusicInfo}></Route>
+            <Route path="musicInfo/:id" component={MusicInfo}></Route>
             <Route path="search" component={Search}></Route>
             <Route path="signIn" component={SignIn}></Route>
         </Route>

@@ -26,13 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="musicCircle.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/container/musicCircle.js">
+      <file leaf-file-name="userPost.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/container/userPost.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+              <folding>
+                <element signature="e#193#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/postCard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
-                <element signature="e#49#75#0" expanded="true" />
+                <element signature="e#242#313#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/css/components/recommendate.css" />
         <option value="$PROJECT_DIR$/app/components/recomSinger.js" />
         <option value="$PROJECT_DIR$/app/components/recomUser.js" />
         <option value="$PROJECT_DIR$/app/css/components/recomUser.css" />
@@ -94,16 +105,17 @@
         <option value="$PROJECT_DIR$/app/container/signin.css" />
         <option value="$PROJECT_DIR$/app/css/container/signIn.css" />
         <option value="$PROJECT_DIR$/app/components/singerCard.js" />
-        <option value="$PROJECT_DIR$/app/page/UserInfo.js" />
         <option value="$PROJECT_DIR$/app/container/collection.js" />
         <option value="$PROJECT_DIR$/app/container/favortite.js" />
-        <option value="$PROJECT_DIR$/app/main.js" />
         <option value="$PROJECT_DIR$/app/container/musicInfo.js" />
         <option value="$PROJECT_DIR$/app/components/header.js" />
         <option value="$PROJECT_DIR$/app/components/musicCard.js" />
         <option value="$PROJECT_DIR$/app/container/signin.js" />
-        <option value="$PROJECT_DIR$/app/components/postCard.js" />
         <option value="$PROJECT_DIR$/app/container/musicCircle.js" />
+        <option value="$PROJECT_DIR$/app/components/postCard.js" />
+        <option value="$PROJECT_DIR$/app/main.js" />
+        <option value="$PROJECT_DIR$/app/page/UserInfo.js" />
+        <option value="$PROJECT_DIR$/app/container/userPost.js" />
       </list>
     </option>
   </component>
@@ -190,6 +202,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstReact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="container" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -235,8 +265,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\project\music-web\web\app\components" />
       <recent name="G:\project\music-web\web\app\container" />
+      <recent name="G:\project\music-web\web\app\components" />
       <recent name="G:\project\music-web\web\app\img" />
       <recent name="G:\project\music-web\web\app" />
       <recent name="G:\project\music-web\web\build" />
@@ -332,12 +362,12 @@
       <workItem from="1494946764647" duration="2256000" />
       <workItem from="1495001665573" duration="11464000" />
       <workItem from="1495282741926" duration="721000" />
-      <workItem from="1495423833092" duration="16457000" />
+      <workItem from="1495423833092" duration="17888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128019000" />
+    <option name="totallyTimeSpent" value="129450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,11 +440,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/img/300.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -675,16 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/page/UserInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding>
-            <element signature="e#246#317#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/container/favortite.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -703,14 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/container/signin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -719,9 +726,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/musicCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#242#313#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/container/musicCircle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <element signature="e#49#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/page/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/container/musicInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-822">
+        <state relative-caret-position="18">
           <caret line="56" column="6" selection-start-line="12" selection-start-column="4" selection-end-line="56" selection-end-column="6" />
           <folding>
             <element signature="e#50#76#0" expanded="true" />
@@ -731,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/container/collection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="258">
           <caret line="36" column="38" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="38" />
           <folding>
             <element signature="e#193#244#0" expanded="true" />
@@ -739,9 +782,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/musicCard.js">
+    <entry file="file://$PROJECT_DIR$/app/components/postCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="342">
           <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="e#242#313#0" expanded="true" />
@@ -749,22 +792,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/postCard.js">
+    <entry file="file://$PROJECT_DIR$/app/container/userPost.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="360">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
           <folding>
-            <element signature="e#242#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/container/musicCircle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-          <folding>
-            <element signature="e#49#75#0" expanded="true" />
+            <element signature="e#193#242#0" expanded="true" />
           </folding>
         </state>
       </provider>

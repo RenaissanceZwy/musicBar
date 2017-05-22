@@ -24,6 +24,9 @@
     p.*,u.username
     from posting p,user u
     where p.uid=u.id and p.status=1
+    <if test="uid!=0">
+     and  u.id=#{uid}
+    </if>
   </select>
   <select id="selectPostingsByPage"  resultType="com.music.web.vo.PostingVo">
     select

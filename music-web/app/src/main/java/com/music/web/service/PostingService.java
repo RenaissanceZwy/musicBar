@@ -22,6 +22,9 @@ public interface PostingService {
     //获取所有的帖子
     List<PostingVo> selectPostings();
 
+    //获取用户所有的帖子
+    List<PostingVo> selectPostings(int uid);
+
     //获取所有的帖子
     List<PostingVo> selectPostings(int pageNum,int pageSize,String name);
 }

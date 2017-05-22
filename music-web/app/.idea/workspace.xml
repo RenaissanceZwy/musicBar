@@ -2,144 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0164ad2f-2cd6-4f81-a9ad-51550e8f5c64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/filter/SimpleCORSFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/dao/MusicDao.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/dao/MusicDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/MusicService.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/MusicService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/MusicServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/MusicServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/dao/MusicDao.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/dao/MusicDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/MusicService.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/MusicService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/MusicServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/MusicServiceImpl.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/PostingController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/music/web/dao/PostingDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/PostingService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/PostingServiceImpl.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/CommentController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/CommentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/LabelController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/LabelController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/CollectionService.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/CollectionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CollectionServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/music/web/service/impl/CollectionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/CommentController.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/CommentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/LabelController.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/LabelController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/PostingController.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/PostingController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/CollectionService.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/CollectionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/CollectionServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/CollectionServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/CommentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/CommentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/LabelController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/LabelController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/PostingController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/PostingController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/service/CollectionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/service/CollectionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/CollectionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/CollectionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/mapper_collection.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/mapper_collection.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/mapper_music.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/mapper_music.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/mapper/mapper_music.xml" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/mapper/mapper_music.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/dao/PostingDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/dao/PostingDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/PostingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/PostingServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/mapper_posting.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/mapper_posting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/mapper_collection.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/mapper_collection.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/mapper_posting.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/mapper_posting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/mapper/mapper_collection.xml" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/mapper/mapper_collection.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/AUTHORS.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/README.md" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/bower.json" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/dist/core.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/dist/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/dist/jquery.slim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/dist/jquery.slim.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/external/sizzle/LICENSE.txt" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/external/sizzle/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/external/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/external/sizzle/dist/sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/external/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/package.json" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/.eslintrc.json" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/.eslintrc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/jsonp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/parseXML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/var/location.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/var/location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/var/nonce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/var/rquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/ajax/xhr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/prop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/attributes/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/DOMEval.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/DOMEval.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/access.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/nodeName.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/nodeName.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/parseHTML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/ready-no-deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/ready.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/readyException.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/readyException.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/stripAndCollapse.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/stripAndCollapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/support.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/core/var/rsingleTag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/addGetHookIf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/adjustCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/curCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/showHide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/cssExpand.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/getStyles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/isHiddenWithinTree.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/rmargin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/swap.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/css/var/swap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/data.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/data/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/data/var/acceptData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/data/var/dataPriv.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/data/var/dataPriv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/data/var/dataUser.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/data/var/dataUser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/deferred/exceptionHook.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/deferred/exceptionHook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/dimensions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/effects.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/effects/Tween.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/effects/animatedSelector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/event.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/alias.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/focusin.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/focusin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/trigger.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/event/trigger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/exports/amd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/exports/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/buildFragment.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/buildFragment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/getAll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/setGlobalEval.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/setGlobalEval.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/var/rscriptType.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/var/rscriptType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/var/rtagName.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/var/rtagName.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/wrapMap.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/manipulation/wrapMap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/offset.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/queue.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/queue/delay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/selector-native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/selector-sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/selector.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing/findFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing/var/dir.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing/var/dir.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing/var/siblings.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/traversing/var/siblings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/ObjectFunctionString.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/ObjectFunctionString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/arr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/class2type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/concat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/document.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/document.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/documentElement.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/documentElement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/fnToString.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/fnToString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/getProto.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/getProto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/hasOwn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/indexOf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/pnum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/push.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/rcssNum.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/rcssNum.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/rnothtmlwhite.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/rnothtmlwhite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/slice.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/var/toString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/node_modules/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/../web/node_modules/jquery/src/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/package.json" afterPath="$PROJECT_DIR$/../web/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/app/components/header.js" afterPath="$PROJECT_DIR$/../web/app/components/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/app/main.js" afterPath="$PROJECT_DIR$/../web/app/main.js" />
     </list>
     <ignored path="music-bar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -162,92 +53,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MusicController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="231" column="34" selection-start-line="231" selection-start-column="30" selection-end-line="231" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/CommentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1358">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapper_comment.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/mapper_comment.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="37" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="37" />
-              <folding>
-                <marker date="1494996648475" expanded="true" signature="860:1059" ph="select comme... user" />
-                <marker date="1494996648475" expanded="true" signature="1150:1320" ph="select comme... user" />
-                <marker date="1494996648475" expanded="true" signature="1407:1552" ph="select comme... user" />
-                <marker date="1494996648475" expanded="true" signature="2074:2192" ph="select comme... user" />
-                <marker date="1494996648475" expanded="true" signature="2260:2477" ph="insert into comment... " />
-                <marker date="1494996648475" expanded="true" signature="2521:2568" ph="update comme... " />
-                <marker date="1494996648475" expanded="true" signature="2616:2671" ph="update comme... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostingController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PostingController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/PostingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1098">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="462">
+              <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LabelController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/LabelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LabelService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/LabelService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/CommentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -279,10 +92,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_comment.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/dao/PostingDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/PostingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_posting.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/AlbumService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/dao/AlbumDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_album.xml" />
@@ -327,8 +136,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/CollectionService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_collection.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/PostingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/LabelController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/service/impl/PostingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/controller/PostingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/music/web/dao/PostingDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/mapper_posting.xml" />
       </list>
     </option>
   </component>
@@ -567,36 +380,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="music-bar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1237,7 +1020,7 @@
       <workItem from="1495259012064" duration="5496000" />
       <workItem from="1495278186032" duration="2251000" />
       <workItem from="1495335901562" duration="4308000" />
-      <workItem from="1495420594162" duration="14581000" />
+      <workItem from="1495420594162" duration="16322000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'web'&#10;&#10;# Conflicts:&#10;#&#9;music-web/app/.idea/workspace.xml&#10;">
       <created>1494950084565</created>
@@ -1295,11 +1078,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495423774801</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1，前后端结合">
+      <created>1495444970083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1495444970083</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60626000" />
+    <option name="totallyTimeSpent" value="62367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="5" width="1598" height="869" extended-state="0" />
@@ -1308,13 +1098,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1322,13 +1112,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6657572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73806274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20404172" sideWeight="0.49466667" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5053333" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1391,7 +1181,8 @@
     <MESSAGE value="1，添加删除功能" />
     <MESSAGE value="1，标签新增功能" />
     <MESSAGE value="1，新增推荐系统功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="1，新增推荐系统功能" />
+    <MESSAGE value="1，前后端结合" />
+    <option name="LAST_COMMIT_MESSAGE" value="1，前后端结合" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1404,41 +1195,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/AlbumController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="46" column="49" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/entity/CollectionMusic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/test.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/testCF.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/pre.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/util/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1727,14 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="175" column="16" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/CollectionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1783,30 +1531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="231" column="34" selection-start-line="231" selection-start-column="30" selection-end-line="231" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1358">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/mapper_comment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1823,24 +1547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/PostingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1098">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/LabelService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1851,9 +1557,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/LabelController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        <state relative-caret-position="382">
+          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1358">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/MusicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="231" column="34" selection-start-line="231" selection-start-column="30" selection-end-line="231" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2902">
+          <caret line="175" column="16" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/impl/PostingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/service/PostingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/dao/PostingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/mapper_posting.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <marker date="1495445906166" expanded="true" signature="939:1042" ph="select from posting" />
+            <marker date="1495445906166" expanded="true" signature="1131:1218" ph="select p.*,u... posting" />
+            <marker date="1495445906166" expanded="true" signature="1788:1877" ph="select p.*,u... posting" />
+            <marker date="1495445906166" expanded="true" signature="1963:2028" ph="update posti... " />
+            <marker date="1495445906166" expanded="true" signature="2113:2392" ph="insert into posting... " />
+            <marker date="1495445906166" expanded="true" signature="3586:4111" ph="update posti... " />
+            <marker date="1495445906166" expanded="true" signature="4208:4478" ph="update posti... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/vo/PostingVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/music/web/controller/PostingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
