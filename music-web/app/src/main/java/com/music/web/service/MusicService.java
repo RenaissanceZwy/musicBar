@@ -1,6 +1,7 @@
 package com.music.web.service;
 
 import com.music.web.entity.Music;
+import com.music.web.entity.PlayNum;
 
 import java.util.List;
 
@@ -22,5 +23,14 @@ public interface MusicService {
 
     /*获取收藏排行榜*/
     public List<Music> selectMusicOrderByCollect( int total);
+
+    //更新某首歌的播放次数
+    public  boolean updateMusicPlayNum(PlayNum playNum);
+
+    //获取所有的播放次数
+    public List<PlayNum> selectMusicPlayNum();
+
+    //获取某个用户的听歌总次数
+    public int selectTotalPlayNumByUid(int uid);
 
 }

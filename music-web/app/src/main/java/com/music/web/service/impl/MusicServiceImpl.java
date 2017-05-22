@@ -2,6 +2,7 @@ package com.music.web.service.impl;
 
 import com.music.web.dao.MusicDao;
 import com.music.web.entity.Music;
+import com.music.web.entity.PlayNum;
 import com.music.web.service.MusicService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -69,5 +70,43 @@ public class MusicServiceImpl implements MusicService {
             logger.error("[MusicServiceImpl][selectMusicOrderByCollect]"+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
         }
         return musics;
+    }
+
+    public boolean updateMusicPlayNum(PlayNum playNum) {
+        int result = 0;
+        try{
+            PlayNum playNum1 = musicDao.selectMusciPlayNumByUid(playNum);
+            if(null == playNum1){
+                 playNum.setNum(1);
+                 result = musicDao.insertMusicPlayNum(playNum);
+            }else{
+                 playNum1 = musicDao.selectMusciPlayNumByUid(playNum);
+                 playNum.setNum(playNum1.getNum()+1);
+                 result = musicDao.updateMusicPlayNumByUid(playNum);
+            }
+        }catch (Exception e){
+            logger.error("[MusicServiceImpl][updateMusicPlayNum]"+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
+        }
+        return result>0;
+    }
+
+    public List<PlayNum> selectMusicPlayNum() {
+        List<PlayNum> playNum = null;
+        try{
+            playNum = musicDao.selectPlayNum();
+        }catch (Exception e){
+            logger.error("[MusicServiceImpl][selectMusicNum]"+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
+        }
+        return playNum;
+    }
+
+    public int selectTotalPlayNumByUid(int uid) {
+        int result = 0;
+        try{
+            result = musicDao.selectTotalMusicPlayNum(uid);
+        }catch (Exception e){
+            logger.error("[MusicServiceImpl][selectTotalPlayNumByUid]"+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
+        }
+        return result;
     }
 }

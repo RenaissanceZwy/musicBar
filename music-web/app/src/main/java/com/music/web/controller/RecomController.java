@@ -3,6 +3,7 @@ package com.music.web.controller;
 import com.music.web.bean.UserBasedRecommendate;
 import com.music.web.constant.JsonResult;
 import com.music.web.entity.Music;
+import com.music.web.entity.PlayNum;
 import com.music.web.service.MusicService;
 import com.music.web.util.FileUtil;
 import org.apache.mahout.cf.taste.recommender.RecommendedItem;
@@ -17,7 +18,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 推荐相关接口
@@ -59,27 +62,32 @@ public class RecomController {
     @RequestMapping(value = "preprc")
     public Object preProcessDataAndGenerateFile(HttpServletRequest request ,
                                                 HttpServletResponse response) throws Exception{
-        int uid = 1;
-        //某个用户的听过的歌曲的次数降序排列
-        List<Integer> list = new ArrayList<Integer>();
-        for(int i = 1; i<=5;i++){
-            list.add(i);
+
+        //获取所有的用户的音乐的播放次数
+        List<PlayNum> playNumList = musicService.selectMusicPlayNum();
+        //进行评分
+        String scores = "";
+        Map<Integer,Integer> uids = new HashMap<Integer, Integer>();
+        for(PlayNum item:playNumList){
+            //获取此用户听歌总数
+            int length = 0;
+            if(uids.get(item.getUid()) == null){
+                length = musicService.selectTotalPlayNumByUid(item.getUid());
+                uids.put(item.getUid(),length);
+            }else{
+                length = uids.get(item.getUid());
+            }
+            int i = item.getNum();
+            int score =(i/length)<0.2?5:((i/length)<0.4?4:((i/length)<0.6?3:((i/length)<0.8?2:1)));
+            //将数据插入到文件中
+            scores += item.getUid()+","+item.getMid()+","+score+"\n";
         }
 
-        //生成评分
-        int length = list.size();
-        int i = 1;
-        String data = "";
-        for(Integer item:list){
-            int score = (i/length)<0.2?5:((i/length)<0.4?4:((i/length)<0.6?3:((i/length)<0.8?2:1)));
-            //将数据插入到文件中
-            data += uid+","+item+","+score+"\n";
-        }
 
         //将数据存储在文件中
         String fileName = "G:/project/music-web/app/src/data/pre.data";
         File file = new File(fileName);
-        FileUtil.writeDataToFile(data,file);
+        FileUtil.writeDataToFile(scores,file);
 
         return new JsonResult("200","数据处理成功","");
     }

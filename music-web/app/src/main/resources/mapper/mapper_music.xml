@@ -40,4 +40,28 @@
 		update music set playNum = #{playNum} where songId =#{songId}
 	</update>
 
+	<insert id="insertMusicPlayNum" parameterType="PlayNum">
+		insert into playnum(uid,mid,num)
+		values (#{uid},#{mid},#{num})
+	</insert>
+
+	<select id="selectPlayNum" resultType="PlayNum">
+		select * from playnum
+		order by uid,num desc
+	</select>
+
+	<select id="selectTotalMusicPlayNum" resultType="int">
+		select count(num) from playnum
+		where uid = #{uid}
+	</select>
+
+	<select id="selectMusciPlayNumByUid" resultType="PlayNum">
+		select * from playnum
+		where uid=#{uid} and mid=#{mid}
+	</select>
+
+	<update id = "updateMusicPlayNumByUid">
+		update playnum set num = #{num} where uid=#{uid} and mid=#{mid}
+	</update>
+
 </mapper> 
