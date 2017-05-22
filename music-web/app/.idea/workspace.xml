@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0164ad2f-2cd6-4f81-a9ad-51550e8f5c64" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/dao/PostingDao.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/dao/PostingDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/PostingService.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/PostingService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/PostingServiceImpl.class" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/com/music/web/service/impl/PostingServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/mapper/mapper_posting.xml" afterPath="$PROJECT_DIR$/target/music-bar-1.0-SNAPSHOT/WEB-INF/classes/mapper/mapper_posting.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" />
     </list>
     <ignored path="music-bar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -997,7 +992,7 @@
       <workItem from="1495259012064" duration="5496000" />
       <workItem from="1495278186032" duration="2251000" />
       <workItem from="1495335901562" duration="4308000" />
-      <workItem from="1495420594162" duration="16426000" />
+      <workItem from="1495420594162" duration="16566000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'web'&#10;&#10;# Conflicts:&#10;#&#9;music-web/app/.idea/workspace.xml&#10;">
       <created>1494950084565</created>
@@ -1069,11 +1064,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495446725454</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1，前后端结合">
+      <created>1495446825654</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1495446825654</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62471000" />
+    <option name="totallyTimeSpent" value="62611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="5" width="1598" height="869" extended-state="0" />
