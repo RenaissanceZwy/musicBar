@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
+import java.util.List;
 
 /**
  * 帖子相关接口
@@ -89,6 +90,20 @@ public class PostingController {
             return new JsonResult("201","参数获取失败","");
         }
         PostingVo vo = postingService.selectPosting(Integer.valueOf(id));
+        return new JsonResult("200","获取帖子成功",vo);
+    }
+
+    /**
+     * 获取所有的帖子
+     * @param request
+     * @param model
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "all")
+    public JsonResult allPosting(HttpServletRequest request,Model model){
+
+        List<PostingVo> vo = postingService.selectPostings();
         return new JsonResult("200","获取帖子成功",vo);
     }
 

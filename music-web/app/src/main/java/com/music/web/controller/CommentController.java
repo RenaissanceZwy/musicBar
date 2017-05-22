@@ -102,4 +102,22 @@ public class CommentController {
         List<CommentInfo> commentInfo = commentService.getComment(id,0);
         return new JsonResult(JsonResultCode.SUCCESS,"评论信息获取成功",commentInfo);
     }
+
+    /**
+     * 获取某首歌或者某个帖子评论信息
+     * @param request
+     * @param model
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "/infos" ,method = {RequestMethod.GET, RequestMethod.POST})
+    public JsonResult getCommentsByMidOrPid(HttpServletRequest request, Model model){
+        String id = request.getParameter("id");
+        String type = request.getParameter("type");
+        if(StringUtils.isEmpty(id) || StringUtils.isEmpty(type)){
+            return new JsonResult(JsonResultCode.FAILURE,"参数获取失败","");
+        }
+        List<CommentInfo> commentInfo = commentService.getComment(id,Integer.valueOf(type));
+        return new JsonResult(JsonResultCode.SUCCESS,"评论信息获取成功",commentInfo);
+    }
 }

@@ -16,7 +16,7 @@
         where collection.mid = music.songId and collection.uid = #{uid} and collection.type = #{type}
     </select>
 
-    <select id="selectByUser" resultType="java.lang.Object">
+    <select id="selectByUser" resultType="music">
         <if test="type==1||4">
             select music.*
             from collection , music

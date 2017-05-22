@@ -7,6 +7,8 @@ import com.music.web.entity.Music;
 import com.music.web.entity.User;
 import com.music.web.service.MusicService;
 import com.music.web.service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,6 +26,8 @@ import java.util.List;
 @RequestMapping(value={"index",""})
 @Controller
 public class IndexController {
+
+    private static  final Logger logger  = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
     private UserService userService;
@@ -64,11 +68,12 @@ public class IndexController {
         if (user == null){
             return  new JsonResult(JsonResultCode.FAILURE,"密码不正确","");
         }
-        if (user != null && user.getStatus() == 1){
+        if (user != null && user.getStatus() == 0){
             return  new JsonResult(JsonResultCode.FAILURE,"对不起该用户已被禁用","");
         }
         request.getSession().setAttribute(CommonConstants.CURRENT_USER,user);
-        return  new JsonResult(JsonResultCode.SUCCESS,"登录成功",user.getStatus());
+        logger.info("session="+request.getSession().getId());
+        return  new JsonResult(JsonResultCode.SUCCESS,"登录成功",user);
     }
 
     /*进行注册操作*/

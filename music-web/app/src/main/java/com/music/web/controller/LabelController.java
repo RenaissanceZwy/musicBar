@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * 标签相关接口
@@ -78,6 +79,20 @@ public class LabelController {
             return new JsonResult("201","参数获取失败","");
         }
         Label label = labelService.selectLabel(id,0);
+        return new JsonResult("200","获取标签成功",label);
+    }
+
+    /**
+     * 获取所有的标签
+     * @param request
+     * @param model
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "all")
+    public JsonResult getAllLabels(HttpServletRequest request,Model model){
+
+        List<Label> label = labelService.selectLabels();
         return new JsonResult("200","获取标签成功",label);
     }
 }

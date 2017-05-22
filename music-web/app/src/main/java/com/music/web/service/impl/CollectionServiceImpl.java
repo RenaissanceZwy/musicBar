@@ -34,10 +34,11 @@ public class CollectionServiceImpl implements CollectionService {
         return musics;
     }
 
-    public List selectByUser(Integer uid, int type) {
-        List musics = null;
+    public List<Object> selectByUser(Integer uid, int type) {
+        List<Object> musics = null;
         try{
             musics = collectionDao.selectByUser(uid,type);
+            logger.info("music"+musics.toString());
         }catch (Exception e){
             logger.error("[CollectionServiceImpl][selectMusicByUser]:uid="+uid+"mid="+mid+e.getLocalizedMessage() + ":" + e.getMessage(),e.getCause());
         }

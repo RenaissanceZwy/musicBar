@@ -176,4 +176,22 @@ public class UserController {
         List lists = collectionService.selectByUser(user.getId(),type);
         return  new JsonResult(JsonResultCode.SUCCESS,"操作成功",lists);
     }
+
+    /**
+     * 获取当前登录用户的信息
+     * @param request
+     * @param model
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "info",method = {RequestMethod.GET, RequestMethod.POST})
+    public JsonResult getUserInfo(HttpServletRequest request,Model model){
+        User user = (User) request.getSession().getAttribute(CommonConstants.CURRENT_USER);
+        logger.info("session="+request.getSession().getId());
+        if(user == null){
+            return new JsonResult(JsonResultCode.FAILURE,"请先进行登录","");
+        }
+
+        return  new JsonResult(JsonResultCode.SUCCESS,"操作成功",user);
+    }
 }

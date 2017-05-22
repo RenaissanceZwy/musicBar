@@ -14,7 +14,7 @@ public interface CollectionService {
     public List<Music> selectMusicByUser(Integer uid, int type);
 
     /* 1 音乐收藏 2 歌手收藏 3 歌单收藏 4 音乐喜爱*/
-    public List selectByUser(Integer uid,int type);
+    public List<Object> selectByUser(Integer uid,int type);
 
     public boolean checkCollectionExist(Long mid,Integer uid, int type);
 
