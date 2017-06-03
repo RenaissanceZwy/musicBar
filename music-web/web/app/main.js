@@ -30,7 +30,7 @@ ReactDom.render((
             <Route path="circle" component={MusicCircle}></Route>
             <Route path="about" component={About}></Route>
             <Route path="musicInfo/:id" component={MusicInfo}></Route>
-            <Route path="search" component={Search}></Route>
+            <Route path="search/:keyword" component={Search}></Route>
             <Route path="signIn" component={SignIn}></Route>
         </Route>
     </Router>

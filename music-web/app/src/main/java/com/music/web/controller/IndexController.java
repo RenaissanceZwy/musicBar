@@ -68,7 +68,7 @@ public class IndexController {
         if (user == null){
             return  new JsonResult(JsonResultCode.FAILURE,"密码不正确","");
         }
-        if (user != null && user.getStatus() == 0){
+        if (user.getStatus() == 0){
             return  new JsonResult(JsonResultCode.FAILURE,"对不起该用户已被禁用","");
         }
         request.getSession().setAttribute(CommonConstants.CURRENT_USER,user);

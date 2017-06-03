@@ -9,7 +9,10 @@ import userPng from '../img/user.png';
 import {Router,Route,IndexRoute,Link,hashHistory } from 'react-router';
 
 var TopBar = React.createClass({
-    
+    handleSearch : function (e) {
+        var keyword = e.target.value;
+        window.location.href="http://localhost:8080/index.html#/search/"+keyword+"?_k=yaivfb";
+    },
     render : function () {
         return (
             <div>
@@ -33,7 +36,7 @@ var TopBar = React.createClass({
                                         <Link to="musicInfo/464192841">排行榜</Link>
                                     </Menu.Item>
                                     <Menu.Item key="3">
-                                        <Link to="search">歌手</Link>
+                                        <Link to="search/july">歌手</Link>
                                     </Menu.Item>
                                     <Menu.Item key="4">
                                         <Link to="signIn">歌单</Link>
@@ -46,7 +49,7 @@ var TopBar = React.createClass({
                             </Col>
                             <Col span="4">
                                 <Search
-                                    placeholder="troye sivan"
+                                    placeholder="troye sivan" onSearch={value => window.location.href="http://localhost:8080/index.html#/search/"+value+"?_k=yaivfb"}
                                 />
                             </Col>
                             <Col span="2" offset="2" >

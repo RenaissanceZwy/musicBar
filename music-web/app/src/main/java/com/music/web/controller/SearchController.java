@@ -79,4 +79,46 @@ public class SearchController {
         }
         return "resultList";
     }
+
+    /**
+     * 进行搜索
+     * type 1-歌曲 10-专辑 100-歌手
+     * @param request
+     * @param model
+     * @param response
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "/res",method = {RequestMethod.GET, RequestMethod.POST})
+    public Object getSearchResult(HttpServletRequest request, Model model, HttpServletResponse response){
+        //获取搜索关键词
+        String keyWord = request.getParameter("keyWord");
+        String type = request.getParameter("type");
+        String url = CommonConstants.SONG_SEARCH+"?type="+type+"&filterDj=true&s="+keyWord+"&limit=10&offset=0";
+        String result = PureNetUtil.get(url);
+        JSONObject obj = JSONObject.parseObject(result);
+
+        //获取歌曲
+        List<Music> musicList = new LinkedList<Music>();
+
+        JSONObject object = obj.getJSONObject("result");
+        if (object == null) {
+            return  new JsonResult(JsonResultCode.SUCCESS,"获取成功",null);
+        } else {
+            JSONArray array = object.getJSONArray("songs");
+            for (int j = 0; j < array.size(); j++) {
+                String songId = array.getJSONObject(j).getString("id");
+                String musicName = array.getJSONObject(j).getString("name");
+                String singer = array.getJSONObject(j).getJSONArray("artists").getJSONObject(0).getString("name");
+                String picUrl = array.getJSONObject(j).getJSONObject("album").getString("picUrl");
+                String albumName = array.getJSONObject(j).getJSONObject("album").getString("name");
+
+                Music music = new Music(musicName, singer, albumName, songId, picUrl, 0);
+                musicList.add(music);
+            }
+
+            return  new JsonResult(JsonResultCode.SUCCESS,"获取成功",musicList);
+        }
+
+    }
 }

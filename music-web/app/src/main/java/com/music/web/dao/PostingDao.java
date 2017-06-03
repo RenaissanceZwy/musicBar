@@ -25,6 +25,8 @@ public interface PostingDao {
 
     List<PostingVo> selectPostings(@Param("uid") int uid);
 
+    List<PostingVo> selectPostingsByFilter(@Param("filter") String filter,@Param("type") int type);
+
     List<PostingVo> selectPostingsByPage(@Param("offset") int offset, @Param("pageSize") int pageSize,
                                          @Param("name") String name);
 }

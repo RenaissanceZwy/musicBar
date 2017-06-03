@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Administrator on 2017/5/20.
+ * Created by zhaowenyi on 2017/5/20.
  */
 public class UserBasedRecommendate {
 

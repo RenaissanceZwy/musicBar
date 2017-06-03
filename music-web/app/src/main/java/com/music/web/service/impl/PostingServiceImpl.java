@@ -62,6 +62,16 @@ public class PostingServiceImpl implements PostingService {
         return result;
     }
 
+    public List<PostingVo> selectPostings(String filter,int type) {
+        List<PostingVo> result = null;
+        try{
+            result = postingDao.selectPostingsByFilter(filter,type);
+        }catch (Exception e){
+            logger.info("[PostingServiceImpl][selectPostings]id:"+e);
+        }
+        return result;
+    }
+
     public List<PostingVo> selectPostings(int uid) {
         List<PostingVo> result = null;
         try{

@@ -102,7 +102,17 @@ public class PostingController {
     @ResponseBody
     @RequestMapping(value = "all")
     public JsonResult allPosting(HttpServletRequest request,Model model){
-        List<PostingVo> vo = postingService.selectPostings();
+        //获取删选条件
+        String filter = request.getParameter("filter");
+        String type = request.getParameter("type");
+
+        List<PostingVo> vo = null;
+        if(StringUtils.isEmpty(filter)){
+            vo = postingService.selectPostings();
+        }else{
+            vo = postingService.selectPostings(filter,Integer.valueOf(type));
+        }
+
         return new JsonResult("200","获取帖子成功",vo);
     }
 
